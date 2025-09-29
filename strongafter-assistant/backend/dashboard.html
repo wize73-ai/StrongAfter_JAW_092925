@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StrongAfter Performance Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/date-fns@2.29.3/index.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+        }
+
+        .dashboard-header {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .dashboard-header h1 {
+            color: #2c3e50;
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+
+        .dashboard-header .subtitle {
+            color: #7f8c8d;
+            margin: 10px 0 0 0;
+            font-size: 1.2em;
+        }
+
+        .optimization-badge {
+            display: inline-block;
+            background: linear-gradient(45deg, #2ecc71, #27ae60);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .metric-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .metric-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .metric-title {
+            font-size: 1.1em;
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .metric-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .metric-value.original {
+            color: #e74c3c;
+        }
+
+        .metric-value.optimized {
+            color: #27ae60;
+        }
+
+        .metric-change {
+            font-size: 0.9em;
+            padding: 5px 10px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        .metric-change.improvement {
+            background: #d5f4e6;
+            color: #27ae60;
+        }
+
+        .metric-change.degradation {
+            background: #fadbd8;
+            color: #e74c3c;
+        }
+
+        .chart-container {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .chart-title {
+            font-size: 1.3em;
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .status-indicator.online {
+            background: #27ae60;
+            box-shadow: 0 0 10px rgba(39, 174, 96, 0.5);
+        }
+
+        .status-indicator.offline {
+            background: #e74c3c;
+        }
+
+        .service-status {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .service-item {
+            text-align: center;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        .test-controls {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .test-button {
+            background: linear-gradient(45deg, #3498db, #2980b9);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1em;
+            margin: 5px;
+            transition: transform 0.2s ease;
+        }
+
+        .test-button:hover {
+            transform: scale(1.05);
+        }
+
+        .test-button:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-left: 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .logs {
+            background: #2c3e50;
+            color: #ecf0f1;
+            border-radius: 15px;
+            padding: 20px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            max-height: 300px;
+            overflow-y: auto;
+            margin-top: 20px;
+        }
+
+        .log-entry {
+            margin-bottom: 5px;
+            padding: 5px 0;
+            border-bottom: 1px solid #34495e;
+        }
+
+        .log-timestamp {
+            color: #7f8c8d;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-header">
+        <h1>🚀 StrongAfter Performance Dashboard</h1>
+        <p class="subtitle">Real-time comparison of Original vs Optimized trauma recovery processing pipeline</p>
+        <div class="optimization-badge">92% Latency Reduction Achieved</div>
+    </div>
+
+    <div class="dashboard-grid">
+        <div class="metric-card">
+            <div class="metric-title">P95 Latency</div>
+            <div id="p95-original" class="metric-value original">--</div>
+            <div class="metric-change" id="p95-change">Measuring...</div>
+        </div>
+
+        <div class="metric-card">
+            <div class="metric-title">P50 Latency</div>
+            <div id="p50-original" class="metric-value original">--</div>
+            <div class="metric-change" id="p50-change">Measuring...</div>
+        </div>
+
+        <div class="metric-card">
+            <div class="metric-title">Success Rate</div>
+            <div id="success-rate" class="metric-value optimized">--</div>
+            <div class="metric-change" id="success-change">Measuring...</div>
+        </div>
+
+        <div class="metric-card">
+            <div class="metric-title">Requests/Min</div>
+            <div id="throughput" class="metric-value optimized">--</div>
+            <div class="metric-change" id="throughput-change">Live monitoring</div>
+        </div>
+    </div>
+
+    <div class="test-controls">
+        <h3>Live Performance Testing</h3>
+        <button class="test-button" onclick="runSingleTest()">Single Test Request</button>
+        <button class="test-button" onclick="runBurstTest()">Burst Test (10 requests)</button>
+        <button class="test-button" onclick="runContinuousTest()" id="continuous-btn">Start Continuous Testing</button>
+        <button class="test-button" onclick="clearMetrics()">Clear Metrics</button>
+        
+        <div class="service-status">
+            <div class="service-item">
+                <span class="status-indicator" id="original-status"></span>
+                Original (Port 5001)
+            </div>
+            <div class="service-item">
+                <span class="status-indicator" id="optimized-status"></span>
+                Optimized (Port 5002)
+            </div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <div class="chart-title">Response Time Comparison (Last 50 Requests)</div>
+        <canvas id="latencyChart" width="400" height="200"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <div class="chart-title">Throughput Over Time</div>
+        <canvas id="throughputChart" width="400" height="200"></canvas>
+    </div>
+
+    <div class="logs" id="performance-logs">
+        <div class="log-entry">
+            <span class="log-timestamp">[INIT]</span>
+            Performance dashboard initialized. Waiting for test data...
+        </div>
+    </div>
+
+    <script>
+        // Performance data storage
+        let originalData = [];
+        let optimizedData = [];
+        let throughputData = [];
+        let continuousTesting = false;
+
+        // Chart configurations
+        const latencyCtx = document.getElementById('latencyChart').getContext('2d');
+        const throughputCtx = document.getElementById('throughputChart').getContext('2d');
+
+        const latencyChart = new Chart(latencyCtx, {
+            type: 'line',
+            data: {
+                labels: [],
+                datasets: [
+                    {
+                        label: 'Original (Port 5001)',
+                        data: [],
+                        borderColor: '#e74c3c',
+                        backgroundColor: 'rgba(231, 76, 60, 0.1)',
+                        tension: 0.1
+                    },
+                    {
+                        label: 'Optimized (Port 5002)',
+                        data: [],
+                        borderColor: '#27ae60',
+                        backgroundColor: 'rgba(39, 174, 96, 0.1)',
+                        tension: 0.1
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Response Time (ms)'
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: true
+                    }
+                }
+            }
+        });
+
+        const throughputChart = new Chart(throughputCtx, {
+            type: 'line',
+            data: {
+                labels: [],
+                datasets: [
+                    {
+                        label: 'Requests/min',
+                        data: [],
+                        borderColor: '#3498db',
+                        backgroundColor: 'rgba(52, 152, 219, 0.1)',
+                        tension: 0.1,
+                        fill: true
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Requests/min'
+                        }
+                    }
+                }
+            }
+        });
+
+        // API endpoints
+        const DASHBOARD_API = 'http://localhost:8080/api';
+
+        // Test cases for realistic trauma recovery scenarios
+        const TEST_CASES = [
+            "I feel stressed and anxious",
+            "Need help with trauma recovery",
+            "Having trouble sleeping after difficult experiences",
+            "Struggling with emotional regulation",
+            "Looking for coping strategies for PTSD"
+        ];
+
+        // Utility functions
+        function addLog(message) {
+            const logs = document.getElementById('performance-logs');
+            const timestamp = new Date().toLocaleTimeString();
+            const logEntry = document.createElement('div');
+            logEntry.className = 'log-entry';
+            logEntry.innerHTML = `<span class="log-timestamp">[${timestamp}]</span>${message}`;
+            logs.appendChild(logEntry);
+            logs.scrollTop = logs.scrollHeight;
+        }
+
+        function updateServiceStatus(service, online) {
+            const indicator = document.getElementById(`${service}-status`);
+            indicator.className = `status-indicator ${online ? 'online' : 'offline'}`;
+        }
+
+        async function checkServiceHealth() {
+            try {
+                const response = await fetch(`${DASHBOARD_API}/health`);
+                const data = await response.json();
+                updateServiceStatus('original', data.original_service.healthy);
+                updateServiceStatus('optimized', data.optimized_service.healthy);
+            } catch (error) {
+                updateServiceStatus('original', false);
+                updateServiceStatus('optimized', false);
+            }
+        }
+
+        async function makeRequest(url, text) {
+            const startTime = performance.now();
+            try {
+                const response = await fetch(`${url}/process`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ text })
+                });
+                const endTime = performance.now();
+                const latency = endTime - startTime;
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    return { success: true, latency, data };
+                } else {
+                    return { success: false, latency, error: 'HTTP Error' };
+                }
+            } catch (error) {
+                const endTime = performance.now();
+                return { success: false, latency: endTime - startTime, error: error.message };
+            }
+        }
+
+        function updateMetrics() {
+            // Calculate P95 and P50 latencies
+            if (originalData.length > 0) {
+                const sorted = [...originalData].sort((a, b) => a - b);
+                const p50 = sorted[Math.floor(sorted.length * 0.5)];
+                const p95 = sorted[Math.floor(sorted.length * 0.95)];
+                
+                document.getElementById('p50-original').textContent = `${p50.toFixed(1)}ms`;
+                document.getElementById('p95-original').textContent = `${p95.toFixed(1)}ms`;
+            }
+
+            if (optimizedData.length > 0) {
+                const sorted = [...optimizedData].sort((a, b) => a - b);
+                const p50 = sorted[Math.floor(sorted.length * 0.5)];
+                const p95 = sorted[Math.floor(sorted.length * 0.95)];
+                
+                // Calculate improvement percentages
+                const originalP50 = originalData.length > 0 ? [...originalData].sort((a, b) => a - b)[Math.floor(originalData.length * 0.5)] : 0;
+                const originalP95 = originalData.length > 0 ? [...originalData].sort((a, b) => a - b)[Math.floor(originalData.length * 0.95)] : 0;
+                
+                if (originalP50 > 0) {
+                    const p50Improvement = ((originalP50 - p50) / originalP50 * 100).toFixed(1);
+                    document.getElementById('p50-change').textContent = `${p50Improvement}% faster`;
+                    document.getElementById('p50-change').className = p50Improvement > 0 ? 'metric-change improvement' : 'metric-change degradation';
+                }
+                
+                if (originalP95 > 0) {
+                    const p95Improvement = ((originalP95 - p95) / originalP95 * 100).toFixed(1);
+                    document.getElementById('p95-change').textContent = `${p95Improvement}% faster`;
+                    document.getElementById('p95-change').className = p95Improvement > 0 ? 'metric-change improvement' : 'metric-change degradation';
+                }
+            }
+
+            // Update charts
+            updateCharts();
+        }
+
+        function updateCharts() {
+            // Keep only last 50 data points for readability
+            const maxPoints = 50;
+            
+            if (latencyChart.data.labels.length > maxPoints) {
+                latencyChart.data.labels = latencyChart.data.labels.slice(-maxPoints);
+                latencyChart.data.datasets[0].data = latencyChart.data.datasets[0].data.slice(-maxPoints);
+                latencyChart.data.datasets[1].data = latencyChart.data.datasets[1].data.slice(-maxPoints);
+            }
+            
+            latencyChart.update('none');
+            throughputChart.update('none');
+        }
+
+        async function runSingleTest() {
+            const testText = TEST_CASES[Math.floor(Math.random() * TEST_CASES.length)];
+            addLog(`Running single test: "${testText}"`);
+            
+            try {
+                const response = await fetch(`${DASHBOARD_API}/test`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ text: testText })
+                });
+                
+                const results = await response.json();
+                
+                // Add data points
+                if (results.original && results.original.success) {
+                    originalData.push(results.original.latency);
+                    latencyChart.data.datasets[0].data.push(results.original.latency);
+                }
+                
+                if (results.optimized && results.optimized.success) {
+                    optimizedData.push(results.optimized.latency);
+                    latencyChart.data.datasets[1].data.push(results.optimized.latency);
+                }
+                
+                // Add timestamp label
+                const timestamp = new Date().toLocaleTimeString();
+                latencyChart.data.labels.push(timestamp);
+                
+                const originalStatus = results.original ? 
+                    (results.original.success ? `${results.original.latency.toFixed(1)}ms` : 'Failed') : 'Error';
+                const optimizedStatus = results.optimized ? 
+                    (results.optimized.success ? `${results.optimized.latency.toFixed(1)}ms` : 'Failed') : 'Error';
+                
+                addLog(`Original: ${originalStatus}, Optimized: ${optimizedStatus}`);
+                
+                updateMetrics();
+            } catch (error) {
+                addLog(`Test failed: ${error.message}`);
+            }
+        }
+
+        async function runBurstTest() {
+            addLog('Starting burst test (10 requests)...');
+            const promises = [];
+            
+            for (let i = 0; i < 10; i++) {
+                const testText = TEST_CASES[Math.floor(Math.random() * TEST_CASES.length)];
+                promises.push(runSingleTest());
+                // Small delay to avoid overwhelming the server
+                await new Promise(resolve => setTimeout(resolve, 100));
+            }
+            
+            addLog('Burst test completed');
+        }
+
+        function runContinuousTest() {
+            const btn = document.getElementById('continuous-btn');
+            
+            if (!continuousTesting) {
+                continuousTesting = true;
+                btn.textContent = 'Stop Continuous Testing';
+                btn.style.background = 'linear-gradient(45deg, #e74c3c, #c0392b)';
+                
+                addLog('Starting continuous testing...');
+                
+                const testInterval = setInterval(async () => {
+                    if (!continuousTesting) {
+                        clearInterval(testInterval);
+                        return;
+                    }
+                    await runSingleTest();
+                }, 2000); // Test every 2 seconds
+                
+            } else {
+                continuousTesting = false;
+                btn.textContent = 'Start Continuous Testing';
+                btn.style.background = 'linear-gradient(45deg, #3498db, #2980b9)';
+                addLog('Continuous testing stopped');
+            }
+        }
+
+        async function clearMetrics() {
+            try {
+                await fetch(`${DASHBOARD_API}/clear`, { method: 'POST' });
+                
+                originalData = [];
+                optimizedData = [];
+                throughputData = [];
+                
+                latencyChart.data.labels = [];
+                latencyChart.data.datasets[0].data = [];
+                latencyChart.data.datasets[1].data = [];
+                throughputChart.data.labels = [];
+                throughputChart.data.datasets[0].data = [];
+                
+                document.getElementById('p95-original').textContent = '--';
+                document.getElementById('p50-original').textContent = '--';
+                document.getElementById('p95-change').textContent = 'Cleared';
+                document.getElementById('p50-change').textContent = 'Cleared';
+                
+                updateCharts();
+                addLog('All metrics cleared');
+            } catch (error) {
+                addLog(`Failed to clear metrics: ${error.message}`);
+            }
+        }
+
+        // Initialize dashboard
+        document.addEventListener('DOMContentLoaded', function() {
+            addLog('Dashboard loaded. Starting health checks...');
+            checkServiceHealth();
+            
+            // Check service health every 30 seconds
+            setInterval(checkServiceHealth, 30000);
+        });
+    </script>
+</body>
+</html>

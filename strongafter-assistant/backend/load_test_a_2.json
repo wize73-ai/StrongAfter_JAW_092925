@@ -1,0 +1,215 @@
+{
+  "debug": {
+    "confidence": 0.0013053165232201993,
+    "deterministic_ok": false,
+    "entropy": 2.056679644745699,
+    "margin": 0.008937647938728338,
+    "promote_qf": true,
+    "safety_hit": false
+  },
+  "mode": "quality_first",
+  "original": "Test load request 2",
+  "themes": [
+    {
+      "description": "Reporting abuse is a personal decision involving potential legal, emotional, and social consequences.",
+      "excerpt_summary": "Beginning your healing journey often starts with the courageous act of acknowledging your past. It takes immense strength to confront the words, and a powerful first step involves both writing and speaking them aloud to yourself:\n> *Write down the words, \"I was abused.\" Say these words aloud to yourself.* \u207d\u00b9\u207e\u207d\u00b2\u207e\nThis profound act marks the beginning of making sense of your experience and understanding its deep impact. As you begin to articulate your story, it's important to recognize that your internal knowledge of the \"wounds you carry\" is paramount \u207d\u00b3\u207e. While mental health professionals may use terms like *Post Traumatic Stress Disorder (PTSD)* or *Complex PTSD*, ultimately, \"you are the one who truly knows\" your story \u207d\u00b3\u207e. These experiences, especially childhood wounds\u2014whether physical, sexual, or emotional, including neglect or bullying\u2014are considered developmental trauma because they can profoundly interfere with psychosocial development and persist into adulthood \u207d\u00b3\u207e. This understanding helps to illuminate the nature of what you've endured, connecting directly to the themes of *Understanding Abuse* and the *Common Effects of Abuse*.\n\nThis process of acknowledging and understanding is not a swift destination, but a journey of rediscovery, as one fellow traveler wisely noted:\n> *It is a process. I feel as if I literally have to start from the beginning and discover who I am. Given my past, it\u2019s not a surprise.* \u207d\u00b3\u207e\nTaking time to write down the key elements of your story, perhaps in a journal, can be a foundational practice to explore these persistent *Common Effects* \u207d\u00b9\u207e\u207d\u00b2\u207e. As you feel ready, sharing parts of your story, even anonymously in supportive online groups or with trusted friends, partners, family, or a therapist, can be a crucial step \u207d\u00b9\u207e\u207d\u00b2\u207e. This act of disclosure, while deeply personal and requiring safety and trust, touches upon the broader theme of *Reporting Abuse*\u2014not necessarily in a legal sense, but in breaking the silence and seeking validation and support. It allows you to be witnessed in your truth, fostering connections that can profoundly aid your healing.\n\n## References\n\u207d1\u207e Unknown Author. *MR2H Chapter 1 A Couple of Things You Ought to Know*. [Get this book](http://strongafter.org)\n\u207d2\u207e Goodwin, R. (2025). *Men's Road to Healing*. Self-published. [Get this book](http://strongafter.org)",
+      "excerpts": [
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "- Write down the words, \u201cI was abused.\u201d \n- Say these words aloud to yourself.\n- Take a bit of time to write down the key elements of your story. This can be the first entry in a journal. (Now would be a good time to get a book and a good pen for this purpose, if you haven\u2019t already done so).\n- After writing down your story, say it aloud to yourself.\n- If you have the opportunity, share parts of your story to others anonymously, like in an online discussion group for male survivors.\n- If you are in a relationship of safety and trust, rehearse saying the words: \u201cI was abused\u201d and then say these words to that person.\n- Consider sharing further within trust relationships you may have (e.g., friend(s), partner, family and/or your therapist).",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9896770465373993
+        },
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "Time to start the journey. Let's get rolling:\n- Write down the words: \"I was abused.\" \n- Say these words aloud to yourself.\n- Take time to write down the key elements of your story. This can be the first entry in a journal. (Now would be the time to get a book and a good pen for this purpose, if you haven't already done so).\n- After writing down your story, say it aloud to yourself.\n- If you have the opportunity, share parts of your story with others anonymously, like in an online discussion group for male survivors.\n- If you are in a relationship of safety and trust, rehearse saying the words: \"I was abused\" and then say these words to that person.\n- Consider sharing further within trust relationships you may have (e.g., friend(s), partner, family and/or your therapist).",
+            "title": "Chapter 1 A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9896008479595184
+        },
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "You may have a sense of the wounds you carry. A mental health professional may use the terms *Post Traumatic Stress Disorder (PTSD), Complex PTSD*, or some other label; yet you are the one who truly knows. Childhood wounds can be experienced physically, sexually, or emotionally, and can include issues of neglect, coercion and bullying. These wounds are considered developmental trauma, as they interfere with the child\u2019s psychosocial development and they may persist into adulthood. \n\nThere is no need to list all the examples of various types of childhood abuse as no one finds themselves in lists (there are many sources for types of victimization, if that is a particular learning need). As a reader, you no doubt know much of your own story. Start there. \n\nIf you are an ally (e.g., partner, friend, family member), you likely are aware of some of the person\u2019s history to know that he has experienced trauma. Details may be ex-  traneous to your role in supporting him. Let him tell you his story when he is ready. You can be his witness.\n\n*It is a process. I feel as if I literally have to start from the beginning and discover who I am. Given my past, it\u2019s not a surprise. - Fellow Traveller*\n\n## The Abuse of Boys\n\nNo one knows how many males are *sexually* abused as children. It is estimated that about *one in six males* experience \u201ccontact\u201d sexual abuse by age 18. This figure is an average of many North American research studies. Contact sexual abuse means abuse that involves touch between the victim and the person(s) who offended them. Children and youth can also experience sexual abuse that does not involve touch, such as exposure to pornography or a parent purposely disrobing themselves for sexual arousal. If these other noncontact forms of sexual abuse were included in this research, higher overall rates would be found. ",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9914321863651275
+        }
+      ],
+      "id": "d0e63c4d",
+      "is_relevant": true,
+      "label": "Reporting Abuse",
+      "related_parent_id": "f23fc897",
+      "related_parent_label": "Justice and Legal Options",
+      "score": 0.07154929339885711,
+      "type": "child"
+    },
+    {
+      "description": "Sexual abuse involves any unwanted or non-consensual sexual act, often involving coercion, manipulation, or force.",
+      "excerpt_summary": "Beginning your healing journey often starts with the courageous act of acknowledging your past. It takes immense strength to confront the words, and a powerful first step involves both writing and speaking them aloud to yourself:\n> *Write down the words, \"I was abused.\" Say these words aloud to yourself.* \u207d\u00b9\u207e\u207d\u00b2\u207e\nThis profound act marks the beginning of making sense of your experience and understanding its deep impact. As you begin to articulate your story, it's important to recognize that your internal knowledge of the \"wounds you carry\" is paramount \u207d\u00b3\u207e. While mental health professionals may use terms like *Post Traumatic Stress Disorder (PTSD)* or *Complex PTSD*, ultimately, \"you are the one who truly knows\" your story \u207d\u00b3\u207e. These experiences, especially childhood wounds\u2014whether physical, sexual, or emotional, including neglect or bullying\u2014are considered developmental trauma because they can profoundly interfere with psychosocial development and persist into adulthood \u207d\u00b3\u207e. This understanding helps to illuminate the nature of what you've endured, connecting directly to the themes of *Understanding Abuse* and the *Common Effects of Abuse*.\n\nThis process of acknowledging and understanding is not a swift destination, but a journey of rediscovery, as one fellow traveler wisely noted:\n> *It is a process. I feel as if I literally have to start from the beginning and discover who I am. Given my past, it\u2019s not a surprise.* \u207d\u00b3\u207e\nTaking time to write down the key elements of your story, perhaps in a journal, can be a foundational practice to explore these persistent *Common Effects* \u207d\u00b9\u207e\u207d\u00b2\u207e. As you feel ready, sharing parts of your story, even anonymously in supportive online groups or with trusted friends, partners, family, or a therapist, can be a crucial step \u207d\u00b9\u207e\u207d\u00b2\u207e. This act of disclosure, while deeply personal and requiring safety and trust, touches upon the broader theme of *Reporting Abuse*\u2014not necessarily in a legal sense, but in breaking the silence and seeking validation and support. It allows you to be witnessed in your truth, fostering connections that can profoundly aid your healing.\n\n## References\n\u207d1\u207e Unknown Author. *MR2H Chapter 1 A Couple of Things You Ought to Know*. [Get this book](http://strongafter.org)\n\u207d2\u207e Goodwin, R. (2025). *Men's Road to Healing*. Self-published. [Get this book](http://strongafter.org)",
+      "excerpts": [
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "- Write down the words, \u201cI was abused.\u201d \n- Say these words aloud to yourself.\n- Take a bit of time to write down the key elements of your story. This can be the first entry in a journal. (Now would be a good time to get a book and a good pen for this purpose, if you haven\u2019t already done so).\n- After writing down your story, say it aloud to yourself.\n- If you have the opportunity, share parts of your story to others anonymously, like in an online discussion group for male survivors.\n- If you are in a relationship of safety and trust, rehearse saying the words: \u201cI was abused\u201d and then say these words to that person.\n- Consider sharing further within trust relationships you may have (e.g., friend(s), partner, family and/or your therapist).",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9896770465373993
+        },
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "Time to start the journey. Let's get rolling:\n- Write down the words: \"I was abused.\" \n- Say these words aloud to yourself.\n- Take time to write down the key elements of your story. This can be the first entry in a journal. (Now would be the time to get a book and a good pen for this purpose, if you haven't already done so).\n- After writing down your story, say it aloud to yourself.\n- If you have the opportunity, share parts of your story with others anonymously, like in an online discussion group for male survivors.\n- If you are in a relationship of safety and trust, rehearse saying the words: \"I was abused\" and then say these words to that person.\n- Consider sharing further within trust relationships you may have (e.g., friend(s), partner, family and/or your therapist).",
+            "title": "Chapter 1 A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9896008479595184
+        },
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "You may have a sense of the wounds you carry. A mental health professional may use the terms *Post Traumatic Stress Disorder (PTSD), Complex PTSD*, or some other label; yet you are the one who truly knows. Childhood wounds can be experienced physically, sexually, or emotionally, and can include issues of neglect, coercion and bullying. These wounds are considered developmental trauma, as they interfere with the child\u2019s psychosocial development and they may persist into adulthood. \n\nThere is no need to list all the examples of various types of childhood abuse as no one finds themselves in lists (there are many sources for types of victimization, if that is a particular learning need). As a reader, you no doubt know much of your own story. Start there. \n\nIf you are an ally (e.g., partner, friend, family member), you likely are aware of some of the person\u2019s history to know that he has experienced trauma. Details may be ex-  traneous to your role in supporting him. Let him tell you his story when he is ready. You can be his witness.\n\n*It is a process. I feel as if I literally have to start from the beginning and discover who I am. Given my past, it\u2019s not a surprise. - Fellow Traveller*\n\n## The Abuse of Boys\n\nNo one knows how many males are *sexually* abused as children. It is estimated that about *one in six males* experience \u201ccontact\u201d sexual abuse by age 18. This figure is an average of many North American research studies. Contact sexual abuse means abuse that involves touch between the victim and the person(s) who offended them. Children and youth can also experience sexual abuse that does not involve touch, such as exposure to pornography or a parent purposely disrobing themselves for sexual arousal. If these other noncontact forms of sexual abuse were included in this research, higher overall rates would be found. ",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9914321863651275
+        }
+      ],
+      "id": "97d485bb",
+      "is_relevant": true,
+      "label": "What Is Sexual Abuse?",
+      "related_parent_id": "44ba8d57",
+      "related_parent_label": "Understanding Abuse",
+      "score": 0.06261164546012878,
+      "type": "child"
+    },
+    {
+      "description": "Experiences of abuse can complicate or intersect with one\u2019s understanding of sexual orientation or gender identity.",
+      "excerpt_summary": "Beginning your healing journey often starts with the courageous act of acknowledging your past. It takes immense strength to confront the words, and a powerful first step involves both writing and speaking them aloud to yourself:\n> *Write down the words, \"I was abused.\" Say these words aloud to yourself.* \u207d\u00b9\u207e\u207d\u00b2\u207e\nThis profound act marks the beginning of making sense of your experience and understanding its deep impact. As you begin to articulate your story, it's important to recognize that your internal knowledge of the \"wounds you carry\" is paramount \u207d\u00b3\u207e. While mental health professionals may use terms like *Post Traumatic Stress Disorder (PTSD)* or *Complex PTSD*, ultimately, \"you are the one who truly knows\" your story \u207d\u00b3\u207e. These experiences, especially childhood wounds\u2014whether physical, sexual, or emotional, including neglect or bullying\u2014are considered developmental trauma because they can profoundly interfere with psychosocial development and persist into adulthood \u207d\u00b3\u207e. This understanding helps to illuminate the nature of what you've endured, connecting directly to the themes of *Understanding Abuse* and the *Common Effects of Abuse*.\n\nThis process of acknowledging and understanding is not a swift destination, but a journey of rediscovery, as one fellow traveler wisely noted:\n> *It is a process. I feel as if I literally have to start from the beginning and discover who I am. Given my past, it\u2019s not a surprise.* \u207d\u00b3\u207e\nTaking time to write down the key elements of your story, perhaps in a journal, can be a foundational practice to explore these persistent *Common Effects* \u207d\u00b9\u207e\u207d\u00b2\u207e. As you feel ready, sharing parts of your story, even anonymously in supportive online groups or with trusted friends, partners, family, or a therapist, can be a crucial step \u207d\u00b9\u207e\u207d\u00b2\u207e. This act of disclosure, while deeply personal and requiring safety and trust, touches upon the broader theme of *Reporting Abuse*\u2014not necessarily in a legal sense, but in breaking the silence and seeking validation and support. It allows you to be witnessed in your truth, fostering connections that can profoundly aid your healing.\n\n## References\n\u207d1\u207e Unknown Author. *MR2H Chapter 1 A Couple of Things You Ought to Know*. [Get this book](http://strongafter.org)\n\u207d2\u207e Goodwin, R. (2025). *Men's Road to Healing*. Self-published. [Get this book](http://strongafter.org)",
+      "excerpts": [
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "- Write down the words, \u201cI was abused.\u201d \n- Say these words aloud to yourself.\n- Take a bit of time to write down the key elements of your story. This can be the first entry in a journal. (Now would be a good time to get a book and a good pen for this purpose, if you haven\u2019t already done so).\n- After writing down your story, say it aloud to yourself.\n- If you have the opportunity, share parts of your story to others anonymously, like in an online discussion group for male survivors.\n- If you are in a relationship of safety and trust, rehearse saying the words: \u201cI was abused\u201d and then say these words to that person.\n- Consider sharing further within trust relationships you may have (e.g., friend(s), partner, family and/or your therapist).",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9896770465373993
+        },
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "Time to start the journey. Let's get rolling:\n- Write down the words: \"I was abused.\" \n- Say these words aloud to yourself.\n- Take time to write down the key elements of your story. This can be the first entry in a journal. (Now would be the time to get a book and a good pen for this purpose, if you haven't already done so).\n- After writing down your story, say it aloud to yourself.\n- If you have the opportunity, share parts of your story with others anonymously, like in an online discussion group for male survivors.\n- If you are in a relationship of safety and trust, rehearse saying the words: \"I was abused\" and then say these words to that person.\n- Consider sharing further within trust relationships you may have (e.g., friend(s), partner, family and/or your therapist).",
+            "title": "Chapter 1 A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9896008479595184
+        },
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "You may have a sense of the wounds you carry. A mental health professional may use the terms *Post Traumatic Stress Disorder (PTSD), Complex PTSD*, or some other label; yet you are the one who truly knows. Childhood wounds can be experienced physically, sexually, or emotionally, and can include issues of neglect, coercion and bullying. These wounds are considered developmental trauma, as they interfere with the child\u2019s psychosocial development and they may persist into adulthood. \n\nThere is no need to list all the examples of various types of childhood abuse as no one finds themselves in lists (there are many sources for types of victimization, if that is a particular learning need). As a reader, you no doubt know much of your own story. Start there. \n\nIf you are an ally (e.g., partner, friend, family member), you likely are aware of some of the person\u2019s history to know that he has experienced trauma. Details may be ex-  traneous to your role in supporting him. Let him tell you his story when he is ready. You can be his witness.\n\n*It is a process. I feel as if I literally have to start from the beginning and discover who I am. Given my past, it\u2019s not a surprise. - Fellow Traveller*\n\n## The Abuse of Boys\n\nNo one knows how many males are *sexually* abused as children. It is estimated that about *one in six males* experience \u201ccontact\u201d sexual abuse by age 18. This figure is an average of many North American research studies. Contact sexual abuse means abuse that involves touch between the victim and the person(s) who offended them. Children and youth can also experience sexual abuse that does not involve touch, such as exposure to pornography or a parent purposely disrobing themselves for sexual arousal. If these other noncontact forms of sexual abuse were included in this research, higher overall rates would be found. ",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9914321863651275
+        }
+      ],
+      "id": "1aca2d50",
+      "is_relevant": true,
+      "label": "Sexual Orientation and Identity",
+      "related_parent_id": "6c133423",
+      "related_parent_label": "Sexuality and Intimacy",
+      "score": 0.05690234899520874,
+      "type": "child"
+    },
+    {
+      "description": "Describes the nature, impact, and misconceptions of sexual abuse to help make sense of its emotional and psychological effects.",
+      "excerpt_summary": "Beginning your healing journey often starts with the courageous act of acknowledging your past. It takes immense strength to confront the words, and a powerful first step involves both writing and speaking them aloud to yourself:\n> *Write down the words, \"I was abused.\" Say these words aloud to yourself.* \u207d\u00b9\u207e\u207d\u00b2\u207e\nThis profound act marks the beginning of making sense of your experience and understanding its deep impact. As you begin to articulate your story, it's important to recognize that your internal knowledge of the \"wounds you carry\" is paramount \u207d\u00b3\u207e. While mental health professionals may use terms like *Post Traumatic Stress Disorder (PTSD)* or *Complex PTSD*, ultimately, \"you are the one who truly knows\" your story \u207d\u00b3\u207e. These experiences, especially childhood wounds\u2014whether physical, sexual, or emotional, including neglect or bullying\u2014are considered developmental trauma because they can profoundly interfere with psychosocial development and persist into adulthood \u207d\u00b3\u207e. This understanding helps to illuminate the nature of what you've endured, connecting directly to the themes of *Understanding Abuse* and the *Common Effects of Abuse*.\n\nThis process of acknowledging and understanding is not a swift destination, but a journey of rediscovery, as one fellow traveler wisely noted:\n> *It is a process. I feel as if I literally have to start from the beginning and discover who I am. Given my past, it\u2019s not a surprise.* \u207d\u00b3\u207e\nTaking time to write down the key elements of your story, perhaps in a journal, can be a foundational practice to explore these persistent *Common Effects* \u207d\u00b9\u207e\u207d\u00b2\u207e. As you feel ready, sharing parts of your story, even anonymously in supportive online groups or with trusted friends, partners, family, or a therapist, can be a crucial step \u207d\u00b9\u207e\u207d\u00b2\u207e. This act of disclosure, while deeply personal and requiring safety and trust, touches upon the broader theme of *Reporting Abuse*\u2014not necessarily in a legal sense, but in breaking the silence and seeking validation and support. It allows you to be witnessed in your truth, fostering connections that can profoundly aid your healing.\n\n## References\n\u207d1\u207e Unknown Author. *MR2H Chapter 1 A Couple of Things You Ought to Know*. [Get this book](http://strongafter.org)\n\u207d2\u207e Goodwin, R. (2025). *Men's Road to Healing*. Self-published. [Get this book](http://strongafter.org)",
+      "excerpts": [
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "- Write down the words, \u201cI was abused.\u201d \n- Say these words aloud to yourself.\n- Take a bit of time to write down the key elements of your story. This can be the first entry in a journal. (Now would be a good time to get a book and a good pen for this purpose, if you haven\u2019t already done so).\n- After writing down your story, say it aloud to yourself.\n- If you have the opportunity, share parts of your story to others anonymously, like in an online discussion group for male survivors.\n- If you are in a relationship of safety and trust, rehearse saying the words: \u201cI was abused\u201d and then say these words to that person.\n- Consider sharing further within trust relationships you may have (e.g., friend(s), partner, family and/or your therapist).",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9896770465373993
+        },
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "Time to start the journey. Let's get rolling:\n- Write down the words: \"I was abused.\" \n- Say these words aloud to yourself.\n- Take time to write down the key elements of your story. This can be the first entry in a journal. (Now would be the time to get a book and a good pen for this purpose, if you haven't already done so).\n- After writing down your story, say it aloud to yourself.\n- If you have the opportunity, share parts of your story with others anonymously, like in an online discussion group for male survivors.\n- If you are in a relationship of safety and trust, rehearse saying the words: \"I was abused\" and then say these words to that person.\n- Consider sharing further within trust relationships you may have (e.g., friend(s), partner, family and/or your therapist).",
+            "title": "Chapter 1 A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9896008479595184
+        },
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "You may have a sense of the wounds you carry. A mental health professional may use the terms *Post Traumatic Stress Disorder (PTSD), Complex PTSD*, or some other label; yet you are the one who truly knows. Childhood wounds can be experienced physically, sexually, or emotionally, and can include issues of neglect, coercion and bullying. These wounds are considered developmental trauma, as they interfere with the child\u2019s psychosocial development and they may persist into adulthood. \n\nThere is no need to list all the examples of various types of childhood abuse as no one finds themselves in lists (there are many sources for types of victimization, if that is a particular learning need). As a reader, you no doubt know much of your own story. Start there. \n\nIf you are an ally (e.g., partner, friend, family member), you likely are aware of some of the person\u2019s history to know that he has experienced trauma. Details may be ex-  traneous to your role in supporting him. Let him tell you his story when he is ready. You can be his witness.\n\n*It is a process. I feel as if I literally have to start from the beginning and discover who I am. Given my past, it\u2019s not a surprise. - Fellow Traveller*\n\n## The Abuse of Boys\n\nNo one knows how many males are *sexually* abused as children. It is estimated that about *one in six males* experience \u201ccontact\u201d sexual abuse by age 18. This figure is an average of many North American research studies. Contact sexual abuse means abuse that involves touch between the victim and the person(s) who offended them. Children and youth can also experience sexual abuse that does not involve touch, such as exposure to pornography or a parent purposely disrobing themselves for sexual arousal. If these other noncontact forms of sexual abuse were included in this research, higher overall rates would be found. ",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9914321863651275
+        }
+      ],
+      "id": "44ba8d57",
+      "is_relevant": true,
+      "label": "Understanding Abuse",
+      "related_parent_id": null,
+      "related_parent_label": null,
+      "score": 0.048365092277526854,
+      "type": "parent"
+    },
+    {
+      "description": "Survivors may experience emotional, psychological, and physical responses such as fear, shame, numbness, or hypervigilance.",
+      "excerpt_summary": "Beginning your healing journey often starts with the courageous act of acknowledging your past. It takes immense strength to confront the words, and a powerful first step involves both writing and speaking them aloud to yourself:\n> *Write down the words, \"I was abused.\" Say these words aloud to yourself.* \u207d\u00b9\u207e\u207d\u00b2\u207e\nThis profound act marks the beginning of making sense of your experience and understanding its deep impact. As you begin to articulate your story, it's important to recognize that your internal knowledge of the \"wounds you carry\" is paramount \u207d\u00b3\u207e. While mental health professionals may use terms like *Post Traumatic Stress Disorder (PTSD)* or *Complex PTSD*, ultimately, \"you are the one who truly knows\" your story \u207d\u00b3\u207e. These experiences, especially childhood wounds\u2014whether physical, sexual, or emotional, including neglect or bullying\u2014are considered developmental trauma because they can profoundly interfere with psychosocial development and persist into adulthood \u207d\u00b3\u207e. This understanding helps to illuminate the nature of what you've endured, connecting directly to the themes of *Understanding Abuse* and the *Common Effects of Abuse*.\n\nThis process of acknowledging and understanding is not a swift destination, but a journey of rediscovery, as one fellow traveler wisely noted:\n> *It is a process. I feel as if I literally have to start from the beginning and discover who I am. Given my past, it\u2019s not a surprise.* \u207d\u00b3\u207e\nTaking time to write down the key elements of your story, perhaps in a journal, can be a foundational practice to explore these persistent *Common Effects* \u207d\u00b9\u207e\u207d\u00b2\u207e. As you feel ready, sharing parts of your story, even anonymously in supportive online groups or with trusted friends, partners, family, or a therapist, can be a crucial step \u207d\u00b9\u207e\u207d\u00b2\u207e. This act of disclosure, while deeply personal and requiring safety and trust, touches upon the broader theme of *Reporting Abuse*\u2014not necessarily in a legal sense, but in breaking the silence and seeking validation and support. It allows you to be witnessed in your truth, fostering connections that can profoundly aid your healing.\n\n## References\n\u207d1\u207e Unknown Author. *MR2H Chapter 1 A Couple of Things You Ought to Know*. [Get this book](http://strongafter.org)\n\u207d2\u207e Goodwin, R. (2025). *Men's Road to Healing*. Self-published. [Get this book](http://strongafter.org)",
+      "excerpts": [
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "- Write down the words, \u201cI was abused.\u201d \n- Say these words aloud to yourself.\n- Take a bit of time to write down the key elements of your story. This can be the first entry in a journal. (Now would be a good time to get a book and a good pen for this purpose, if you haven\u2019t already done so).\n- After writing down your story, say it aloud to yourself.\n- If you have the opportunity, share parts of your story to others anonymously, like in an online discussion group for male survivors.\n- If you are in a relationship of safety and trust, rehearse saying the words: \u201cI was abused\u201d and then say these words to that person.\n- Consider sharing further within trust relationships you may have (e.g., friend(s), partner, family and/or your therapist).",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9896770465373993
+        },
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "Time to start the journey. Let's get rolling:\n- Write down the words: \"I was abused.\" \n- Say these words aloud to yourself.\n- Take time to write down the key elements of your story. This can be the first entry in a journal. (Now would be the time to get a book and a good pen for this purpose, if you haven't already done so).\n- After writing down your story, say it aloud to yourself.\n- If you have the opportunity, share parts of your story with others anonymously, like in an online discussion group for male survivors.\n- If you are in a relationship of safety and trust, rehearse saying the words: \"I was abused\" and then say these words to that person.\n- Consider sharing further within trust relationships you may have (e.g., friend(s), partner, family and/or your therapist).",
+            "title": "Chapter 1 A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9896008479595184
+        },
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "You may have a sense of the wounds you carry. A mental health professional may use the terms *Post Traumatic Stress Disorder (PTSD), Complex PTSD*, or some other label; yet you are the one who truly knows. Childhood wounds can be experienced physically, sexually, or emotionally, and can include issues of neglect, coercion and bullying. These wounds are considered developmental trauma, as they interfere with the child\u2019s psychosocial development and they may persist into adulthood. \n\nThere is no need to list all the examples of various types of childhood abuse as no one finds themselves in lists (there are many sources for types of victimization, if that is a particular learning need). As a reader, you no doubt know much of your own story. Start there. \n\nIf you are an ally (e.g., partner, friend, family member), you likely are aware of some of the person\u2019s history to know that he has experienced trauma. Details may be ex-  traneous to your role in supporting him. Let him tell you his story when he is ready. You can be his witness.\n\n*It is a process. I feel as if I literally have to start from the beginning and discover who I am. Given my past, it\u2019s not a surprise. - Fellow Traveller*\n\n## The Abuse of Boys\n\nNo one knows how many males are *sexually* abused as children. It is estimated that about *one in six males* experience \u201ccontact\u201d sexual abuse by age 18. This figure is an average of many North American research studies. Contact sexual abuse means abuse that involves touch between the victim and the person(s) who offended them. Children and youth can also experience sexual abuse that does not involve touch, such as exposure to pornography or a parent purposely disrobing themselves for sexual arousal. If these other noncontact forms of sexual abuse were included in this research, higher overall rates would be found. ",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9914321863651275
+        }
+      ],
+      "id": "641d8d79",
+      "is_relevant": true,
+      "label": "Common Effects of Abuse",
+      "related_parent_id": "44ba8d57",
+      "related_parent_label": "Understanding Abuse",
+      "score": 0.042878146469593044,
+      "type": "child"
+    }
+  ],
+  "total_time_ms": 16012.923240661621
+}

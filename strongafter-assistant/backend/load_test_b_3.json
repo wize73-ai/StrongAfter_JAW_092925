@@ -1,0 +1,33 @@
+{
+  "blackboard_metrics": {
+    "agent_contributions": {
+      "BlackboardService": 1,
+      "ControlStrategy": 3,
+      "SummaryGenerationAgent": 4
+    },
+    "blackboard_size": 17,
+    "completion_status": false,
+    "processing_stages": {
+      "summarygeneration": [
+        0.7522671222686768
+      ]
+    },
+    "total_processing_time": 0.752406120300293,
+    "total_reads": 20,
+    "total_writes": 8
+  },
+  "original": "Test load request 3",
+  "processing_time": 0.7534911632537842,
+  "quality_score": null,
+  "streaming_updates": [
+    {
+      "citation_count": 0,
+      "source": "SummaryGenerationAgent",
+      "summary_length": 250,
+      "timestamp": "2025-09-28T12:03:32.369060",
+      "type": "summary_complete"
+    }
+  ],
+  "summary": "Okay, I need the **Themes** and **Excerpts** to create the summary. Please provide them. Once you provide that information, I will write the two-paragraph summary you requested, incorporating the themes and excerpts and using citations as instructed.",
+  "themes": []
+}

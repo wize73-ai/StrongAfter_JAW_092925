@@ -1,0 +1,215 @@
+{
+  "debug": {
+    "confidence": 0.003882677663972265,
+    "deterministic_ok": false,
+    "entropy": 2.064609174921303,
+    "margin": 0.08761350278420882,
+    "promote_qf": true,
+    "safety_hit": false
+  },
+  "mode": "quality_first",
+  "original": "I struggle with anxiety and need help with coping strategies",
+  "themes": [
+    {
+      "description": "Introduces techniques that help manage distress, improve emotional regulation, and support trauma recovery.",
+      "excerpt_summary": "Trauma recovery often necessitates a profound shift in how we approach our emotional experiences. While it's common to instinctively try to manage distress through silence, isolation, or intellectualization \u207d\u00b9\u207e\u207d\u00b2\u207e, true healing paradoxically requires a different path. Rather than escaping pain, we are encouraged to \"lean into the pain in a manageable way, not avoid it\" \u207d\u00b2\u207e. This means actively countering avoidance behaviors that keep distressing thoughts and feelings at bay, such as emotional withdrawal or denial \u207d\u00b9\u207e. Embracing this principle means understanding that \"true strength comes from admitting you are vulnerable\" \u207d\u00b2\u207e. A vital coping and recovery tool in this process is developing emotional literacy, which involves practicing the expression of feelings and fostering genuine social connections \u207d\u00b9\u207e. This helps to manage intense emotions, including anxiety, by creating space for vulnerability and shared understanding \u207d\u00b9\u207e. Practicing emotional expression, as seen in group settings, helps individuals to identify and articulate their feelings, such as anxiety, which is a crucial step in emotional regulation \u207d\u00b9\u207e.\n\n> *\"Let's hear from everyone in our opening (closing) round and 'check-in.' In a few words, tell us how you are feeling right now, at this very moment (e.g. glad, sad, mad, anxious, calm, etc.). Feelings more than thoughts.\"* \u207d\u00b9\u207e\n\nBy naming our feelings, we build the foundation for regulating emotional responses and moving through fear, as \"courage is not the absence of fear but moving forward regardless\" \u207d\u00b2\u207e.\n\nWhen foundational healing tools are not embraced, unaddressed trauma can manifest in a wide range of complex and often self-defeating ways. Problematic coping mechanisms may emerge, including \"substance abuse,\" \"debilitating compulsive behaviours,\" or \"patterns of harming one\u2019s physical self\" \u207d\u00b3\u207e. These actions often serve as desperate attempts to manage intense pain, distress, or the persistent fear associated with anxiety \u207d\u00b3\u207e. Avoidance behaviors can also become deeply ingrained, appearing as chronic detachment, withdrawal, or isolation from others \u207d\u00b3\u207e.\n\n> *You may note a friction in the work ahead: silence and isolation have been essential to managing your pain, but articulating your experience and finding social bonds are now going to prove essential on your path to recovery. This is one of the many paradoxes required for trauma recovery. We will explore that in a bit.* \u207d\u00b9\u207e\n\nRecognizing these patterns, whether they are expressions of anxiety, problematic coping, or avoidance, is a crucial step towards adopting recovery tools that foster genuine connection, emotional truth-telling, and a courageous willingness to engage with your healing journey \u207d\u00b9\u207e.\n\n## References\n\u207d1\u207e Goodwin, R. (2025). *Men's Road to Healing*. Self-published. [Get this book](http://strongafter.org)\n\u207d2\u207e Unknown Author. *MR2H Chapter 1 A Couple of Things You Ought to Know*. [Get this book](http://strongafter.org)",
+      "excerpts": [
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "Active listening, empathy and understanding, being supportive and reflective are all aspects of holding space for one another. Once you choose who can hold space for your story, you are no longer alone on your journey to recovery. \n\nYou may note a friction in the work ahead: silence and isolation have been essential to managing your pain, but articulating your experience and finding social bonds are now going to prove essential on your path to recovery. This is one of the many paradoxes required for trauma recovery. We will explore that in a bit.\n\n## Emotional Literacy\n\nAll skills require practice. Men in therapy are no exception. Twice a meeting, men in our trauma recovery groups practise deepening their emotional expression:\n\n*\"Let's hear from everyone in our opening (closing) round and 'check-in.' In a few words, tell us how you are feeling right now, at this very moment (e.g. glad, sad, mad, anxious, calm, etc.). Feelings more than thoughts.\"*\n\nThis instruction rails against the ingrained principle of responding to \"How are you?\" with a facile, socially accepted reply like, \"I'm good.\" Yet, it is on this deeper, more profound level that we must start building emotional literacy. The work of expressing emotional vulnerability is essential \u2014 a form of truth-telling you can start practising in your day-to-day life. ",
+            "title": "Chapter 2 Breaking Silence"
+          },
+          "similarity_score": 0.9909271329641343
+        },
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "Yet, paradoxical thinking can also lead you to healing. Consider the following statements as guides to your recovery:\n\n - You gain more control over your life by learning to let go of control.\n - True strength comes from admitting you are vulnerable.\n - You move forward by learning to sit with the past.\n - Courage is not the absence of fear but moving forward regardless\n\nDespite your best efforts, *you can't think your way to trauma recovery*. It is not a linear process that can be intellectualized. Instead of escaping the pain of your body, mind and soul, you need to lean into the pain in a manageable way, not avoid it (see Chapter 9 for how this can be done). ",
+            "title": "Chapter 2 Breaking Silence"
+          },
+          "similarity_score": 0.9897412681579589
+        },
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "- Non-proportionate expressions of emotion, or the seeming absence of emotional expression \n- Chronic experiences of spacing out, detachment, feelings of unreality or disorientation\n- Proneness to distrust, anger, rage, and aggression\n- Patterns of experiencing harm as an adult (e.g., being abused by one\u2019s partner, placing oneself in unsafe physical or sexual situations)\n- Substance abuse\n- Patterns of withdrawal and isolation from others\n- Problematic patterns in intimate relationships\n- Debilitating compulsive behaviours\n- Patterns of \u201cacting out\u201d or risk-taking behaviours, either as a youth or an adult \n- Eating disorders and/or patterns of preoccupation with one\u2019s body, shape and look\n- Patterns of harming one\u2019s physical self\n- Thoughts or actions that could be considered suicidal in nature\n- Experiencing problems in one\u2019s sexual identity or sexual expression that seem connected to the past\n- Conflict with authority figures, such as bosses, police officers and the like",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9873668110370636
+        }
+      ],
+      "id": "68c21cc5",
+      "is_relevant": true,
+      "label": "Coping and Recovery Tools",
+      "related_parent_id": null,
+      "related_parent_label": null,
+      "score": 0.38114746050401166,
+      "type": "parent"
+    },
+    {
+      "description": "Anxiety and panic involve persistent fear, racing thoughts, and physical symptoms like a rapid heartbeat or shortness of breath.",
+      "excerpt_summary": "Trauma recovery often necessitates a profound shift in how we approach our emotional experiences. While it's common to instinctively try to manage distress through silence, isolation, or intellectualization \u207d\u00b9\u207e\u207d\u00b2\u207e, true healing paradoxically requires a different path. Rather than escaping pain, we are encouraged to \"lean into the pain in a manageable way, not avoid it\" \u207d\u00b2\u207e. This means actively countering avoidance behaviors that keep distressing thoughts and feelings at bay, such as emotional withdrawal or denial \u207d\u00b9\u207e. Embracing this principle means understanding that \"true strength comes from admitting you are vulnerable\" \u207d\u00b2\u207e. A vital coping and recovery tool in this process is developing emotional literacy, which involves practicing the expression of feelings and fostering genuine social connections \u207d\u00b9\u207e. This helps to manage intense emotions, including anxiety, by creating space for vulnerability and shared understanding \u207d\u00b9\u207e. Practicing emotional expression, as seen in group settings, helps individuals to identify and articulate their feelings, such as anxiety, which is a crucial step in emotional regulation \u207d\u00b9\u207e.\n\n> *\"Let's hear from everyone in our opening (closing) round and 'check-in.' In a few words, tell us how you are feeling right now, at this very moment (e.g. glad, sad, mad, anxious, calm, etc.). Feelings more than thoughts.\"* \u207d\u00b9\u207e\n\nBy naming our feelings, we build the foundation for regulating emotional responses and moving through fear, as \"courage is not the absence of fear but moving forward regardless\" \u207d\u00b2\u207e.\n\nWhen foundational healing tools are not embraced, unaddressed trauma can manifest in a wide range of complex and often self-defeating ways. Problematic coping mechanisms may emerge, including \"substance abuse,\" \"debilitating compulsive behaviours,\" or \"patterns of harming one\u2019s physical self\" \u207d\u00b3\u207e. These actions often serve as desperate attempts to manage intense pain, distress, or the persistent fear associated with anxiety \u207d\u00b3\u207e. Avoidance behaviors can also become deeply ingrained, appearing as chronic detachment, withdrawal, or isolation from others \u207d\u00b3\u207e.\n\n> *You may note a friction in the work ahead: silence and isolation have been essential to managing your pain, but articulating your experience and finding social bonds are now going to prove essential on your path to recovery. This is one of the many paradoxes required for trauma recovery. We will explore that in a bit.* \u207d\u00b9\u207e\n\nRecognizing these patterns, whether they are expressions of anxiety, problematic coping, or avoidance, is a crucial step towards adopting recovery tools that foster genuine connection, emotional truth-telling, and a courageous willingness to engage with your healing journey \u207d\u00b9\u207e.\n\n## References\n\u207d1\u207e Goodwin, R. (2025). *Men's Road to Healing*. Self-published. [Get this book](http://strongafter.org)\n\u207d2\u207e Unknown Author. *MR2H Chapter 1 A Couple of Things You Ought to Know*. [Get this book](http://strongafter.org)",
+      "excerpts": [
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "Active listening, empathy and understanding, being supportive and reflective are all aspects of holding space for one another. Once you choose who can hold space for your story, you are no longer alone on your journey to recovery. \n\nYou may note a friction in the work ahead: silence and isolation have been essential to managing your pain, but articulating your experience and finding social bonds are now going to prove essential on your path to recovery. This is one of the many paradoxes required for trauma recovery. We will explore that in a bit.\n\n## Emotional Literacy\n\nAll skills require practice. Men in therapy are no exception. Twice a meeting, men in our trauma recovery groups practise deepening their emotional expression:\n\n*\"Let's hear from everyone in our opening (closing) round and 'check-in.' In a few words, tell us how you are feeling right now, at this very moment (e.g. glad, sad, mad, anxious, calm, etc.). Feelings more than thoughts.\"*\n\nThis instruction rails against the ingrained principle of responding to \"How are you?\" with a facile, socially accepted reply like, \"I'm good.\" Yet, it is on this deeper, more profound level that we must start building emotional literacy. The work of expressing emotional vulnerability is essential \u2014 a form of truth-telling you can start practising in your day-to-day life. ",
+            "title": "Chapter 2 Breaking Silence"
+          },
+          "similarity_score": 0.9909271329641343
+        },
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "Yet, paradoxical thinking can also lead you to healing. Consider the following statements as guides to your recovery:\n\n - You gain more control over your life by learning to let go of control.\n - True strength comes from admitting you are vulnerable.\n - You move forward by learning to sit with the past.\n - Courage is not the absence of fear but moving forward regardless\n\nDespite your best efforts, *you can't think your way to trauma recovery*. It is not a linear process that can be intellectualized. Instead of escaping the pain of your body, mind and soul, you need to lean into the pain in a manageable way, not avoid it (see Chapter 9 for how this can be done). ",
+            "title": "Chapter 2 Breaking Silence"
+          },
+          "similarity_score": 0.9897412681579589
+        },
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "- Non-proportionate expressions of emotion, or the seeming absence of emotional expression \n- Chronic experiences of spacing out, detachment, feelings of unreality or disorientation\n- Proneness to distrust, anger, rage, and aggression\n- Patterns of experiencing harm as an adult (e.g., being abused by one\u2019s partner, placing oneself in unsafe physical or sexual situations)\n- Substance abuse\n- Patterns of withdrawal and isolation from others\n- Problematic patterns in intimate relationships\n- Debilitating compulsive behaviours\n- Patterns of \u201cacting out\u201d or risk-taking behaviours, either as a youth or an adult \n- Eating disorders and/or patterns of preoccupation with one\u2019s body, shape and look\n- Patterns of harming one\u2019s physical self\n- Thoughts or actions that could be considered suicidal in nature\n- Experiencing problems in one\u2019s sexual identity or sexual expression that seem connected to the past\n- Conflict with authority figures, such as bosses, police officers and the like",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9873668110370636
+        }
+      ],
+      "id": "4756a596",
+      "is_relevant": true,
+      "label": "Anxiety and Panic",
+      "related_parent_id": "f9815d0a",
+      "related_parent_label": "Mental Health and Emotions",
+      "score": 0.29353395771980284,
+      "type": "child"
+    },
+    {
+      "description": "Examines the links between trauma and behaviors like substance use or self-harm used to manage pain or distress.",
+      "excerpt_summary": "Trauma recovery often necessitates a profound shift in how we approach our emotional experiences. While it's common to instinctively try to manage distress through silence, isolation, or intellectualization \u207d\u00b9\u207e\u207d\u00b2\u207e, true healing paradoxically requires a different path. Rather than escaping pain, we are encouraged to \"lean into the pain in a manageable way, not avoid it\" \u207d\u00b2\u207e. This means actively countering avoidance behaviors that keep distressing thoughts and feelings at bay, such as emotional withdrawal or denial \u207d\u00b9\u207e. Embracing this principle means understanding that \"true strength comes from admitting you are vulnerable\" \u207d\u00b2\u207e. A vital coping and recovery tool in this process is developing emotional literacy, which involves practicing the expression of feelings and fostering genuine social connections \u207d\u00b9\u207e. This helps to manage intense emotions, including anxiety, by creating space for vulnerability and shared understanding \u207d\u00b9\u207e. Practicing emotional expression, as seen in group settings, helps individuals to identify and articulate their feelings, such as anxiety, which is a crucial step in emotional regulation \u207d\u00b9\u207e.\n\n> *\"Let's hear from everyone in our opening (closing) round and 'check-in.' In a few words, tell us how you are feeling right now, at this very moment (e.g. glad, sad, mad, anxious, calm, etc.). Feelings more than thoughts.\"* \u207d\u00b9\u207e\n\nBy naming our feelings, we build the foundation for regulating emotional responses and moving through fear, as \"courage is not the absence of fear but moving forward regardless\" \u207d\u00b2\u207e.\n\nWhen foundational healing tools are not embraced, unaddressed trauma can manifest in a wide range of complex and often self-defeating ways. Problematic coping mechanisms may emerge, including \"substance abuse,\" \"debilitating compulsive behaviours,\" or \"patterns of harming one\u2019s physical self\" \u207d\u00b3\u207e. These actions often serve as desperate attempts to manage intense pain, distress, or the persistent fear associated with anxiety \u207d\u00b3\u207e. Avoidance behaviors can also become deeply ingrained, appearing as chronic detachment, withdrawal, or isolation from others \u207d\u00b3\u207e.\n\n> *You may note a friction in the work ahead: silence and isolation have been essential to managing your pain, but articulating your experience and finding social bonds are now going to prove essential on your path to recovery. This is one of the many paradoxes required for trauma recovery. We will explore that in a bit.* \u207d\u00b9\u207e\n\nRecognizing these patterns, whether they are expressions of anxiety, problematic coping, or avoidance, is a crucial step towards adopting recovery tools that foster genuine connection, emotional truth-telling, and a courageous willingness to engage with your healing journey \u207d\u00b9\u207e.\n\n## References\n\u207d1\u207e Goodwin, R. (2025). *Men's Road to Healing*. Self-published. [Get this book](http://strongafter.org)\n\u207d2\u207e Unknown Author. *MR2H Chapter 1 A Couple of Things You Ought to Know*. [Get this book](http://strongafter.org)",
+      "excerpts": [
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "Active listening, empathy and understanding, being supportive and reflective are all aspects of holding space for one another. Once you choose who can hold space for your story, you are no longer alone on your journey to recovery. \n\nYou may note a friction in the work ahead: silence and isolation have been essential to managing your pain, but articulating your experience and finding social bonds are now going to prove essential on your path to recovery. This is one of the many paradoxes required for trauma recovery. We will explore that in a bit.\n\n## Emotional Literacy\n\nAll skills require practice. Men in therapy are no exception. Twice a meeting, men in our trauma recovery groups practise deepening their emotional expression:\n\n*\"Let's hear from everyone in our opening (closing) round and 'check-in.' In a few words, tell us how you are feeling right now, at this very moment (e.g. glad, sad, mad, anxious, calm, etc.). Feelings more than thoughts.\"*\n\nThis instruction rails against the ingrained principle of responding to \"How are you?\" with a facile, socially accepted reply like, \"I'm good.\" Yet, it is on this deeper, more profound level that we must start building emotional literacy. The work of expressing emotional vulnerability is essential \u2014 a form of truth-telling you can start practising in your day-to-day life. ",
+            "title": "Chapter 2 Breaking Silence"
+          },
+          "similarity_score": 0.9909271329641343
+        },
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "Yet, paradoxical thinking can also lead you to healing. Consider the following statements as guides to your recovery:\n\n - You gain more control over your life by learning to let go of control.\n - True strength comes from admitting you are vulnerable.\n - You move forward by learning to sit with the past.\n - Courage is not the absence of fear but moving forward regardless\n\nDespite your best efforts, *you can't think your way to trauma recovery*. It is not a linear process that can be intellectualized. Instead of escaping the pain of your body, mind and soul, you need to lean into the pain in a manageable way, not avoid it (see Chapter 9 for how this can be done). ",
+            "title": "Chapter 2 Breaking Silence"
+          },
+          "similarity_score": 0.9897412681579589
+        },
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "- Non-proportionate expressions of emotion, or the seeming absence of emotional expression \n- Chronic experiences of spacing out, detachment, feelings of unreality or disorientation\n- Proneness to distrust, anger, rage, and aggression\n- Patterns of experiencing harm as an adult (e.g., being abused by one\u2019s partner, placing oneself in unsafe physical or sexual situations)\n- Substance abuse\n- Patterns of withdrawal and isolation from others\n- Problematic patterns in intimate relationships\n- Debilitating compulsive behaviours\n- Patterns of \u201cacting out\u201d or risk-taking behaviours, either as a youth or an adult \n- Eating disorders and/or patterns of preoccupation with one\u2019s body, shape and look\n- Patterns of harming one\u2019s physical self\n- Thoughts or actions that could be considered suicidal in nature\n- Experiencing problems in one\u2019s sexual identity or sexual expression that seem connected to the past\n- Conflict with authority figures, such as bosses, police officers and the like",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9873668110370636
+        }
+      ],
+      "id": "2516db5a",
+      "is_relevant": true,
+      "label": "Addiction and Coping Mechanisms",
+      "related_parent_id": null,
+      "related_parent_label": null,
+      "score": 0.2669196901498017,
+      "type": "parent"
+    },
+    {
+      "description": "Triggers are reminders of trauma that can cause emotional or physiological reactions, often without warning.",
+      "excerpt_summary": "Trauma recovery often necessitates a profound shift in how we approach our emotional experiences. While it's common to instinctively try to manage distress through silence, isolation, or intellectualization \u207d\u00b9\u207e\u207d\u00b2\u207e, true healing paradoxically requires a different path. Rather than escaping pain, we are encouraged to \"lean into the pain in a manageable way, not avoid it\" \u207d\u00b2\u207e. This means actively countering avoidance behaviors that keep distressing thoughts and feelings at bay, such as emotional withdrawal or denial \u207d\u00b9\u207e. Embracing this principle means understanding that \"true strength comes from admitting you are vulnerable\" \u207d\u00b2\u207e. A vital coping and recovery tool in this process is developing emotional literacy, which involves practicing the expression of feelings and fostering genuine social connections \u207d\u00b9\u207e. This helps to manage intense emotions, including anxiety, by creating space for vulnerability and shared understanding \u207d\u00b9\u207e. Practicing emotional expression, as seen in group settings, helps individuals to identify and articulate their feelings, such as anxiety, which is a crucial step in emotional regulation \u207d\u00b9\u207e.\n\n> *\"Let's hear from everyone in our opening (closing) round and 'check-in.' In a few words, tell us how you are feeling right now, at this very moment (e.g. glad, sad, mad, anxious, calm, etc.). Feelings more than thoughts.\"* \u207d\u00b9\u207e\n\nBy naming our feelings, we build the foundation for regulating emotional responses and moving through fear, as \"courage is not the absence of fear but moving forward regardless\" \u207d\u00b2\u207e.\n\nWhen foundational healing tools are not embraced, unaddressed trauma can manifest in a wide range of complex and often self-defeating ways. Problematic coping mechanisms may emerge, including \"substance abuse,\" \"debilitating compulsive behaviours,\" or \"patterns of harming one\u2019s physical self\" \u207d\u00b3\u207e. These actions often serve as desperate attempts to manage intense pain, distress, or the persistent fear associated with anxiety \u207d\u00b3\u207e. Avoidance behaviors can also become deeply ingrained, appearing as chronic detachment, withdrawal, or isolation from others \u207d\u00b3\u207e.\n\n> *You may note a friction in the work ahead: silence and isolation have been essential to managing your pain, but articulating your experience and finding social bonds are now going to prove essential on your path to recovery. This is one of the many paradoxes required for trauma recovery. We will explore that in a bit.* \u207d\u00b9\u207e\n\nRecognizing these patterns, whether they are expressions of anxiety, problematic coping, or avoidance, is a crucial step towards adopting recovery tools that foster genuine connection, emotional truth-telling, and a courageous willingness to engage with your healing journey \u207d\u00b9\u207e.\n\n## References\n\u207d1\u207e Goodwin, R. (2025). *Men's Road to Healing*. Self-published. [Get this book](http://strongafter.org)\n\u207d2\u207e Unknown Author. *MR2H Chapter 1 A Couple of Things You Ought to Know*. [Get this book](http://strongafter.org)",
+      "excerpts": [
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "Active listening, empathy and understanding, being supportive and reflective are all aspects of holding space for one another. Once you choose who can hold space for your story, you are no longer alone on your journey to recovery. \n\nYou may note a friction in the work ahead: silence and isolation have been essential to managing your pain, but articulating your experience and finding social bonds are now going to prove essential on your path to recovery. This is one of the many paradoxes required for trauma recovery. We will explore that in a bit.\n\n## Emotional Literacy\n\nAll skills require practice. Men in therapy are no exception. Twice a meeting, men in our trauma recovery groups practise deepening their emotional expression:\n\n*\"Let's hear from everyone in our opening (closing) round and 'check-in.' In a few words, tell us how you are feeling right now, at this very moment (e.g. glad, sad, mad, anxious, calm, etc.). Feelings more than thoughts.\"*\n\nThis instruction rails against the ingrained principle of responding to \"How are you?\" with a facile, socially accepted reply like, \"I'm good.\" Yet, it is on this deeper, more profound level that we must start building emotional literacy. The work of expressing emotional vulnerability is essential \u2014 a form of truth-telling you can start practising in your day-to-day life. ",
+            "title": "Chapter 2 Breaking Silence"
+          },
+          "similarity_score": 0.9909271329641343
+        },
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "Yet, paradoxical thinking can also lead you to healing. Consider the following statements as guides to your recovery:\n\n - You gain more control over your life by learning to let go of control.\n - True strength comes from admitting you are vulnerable.\n - You move forward by learning to sit with the past.\n - Courage is not the absence of fear but moving forward regardless\n\nDespite your best efforts, *you can't think your way to trauma recovery*. It is not a linear process that can be intellectualized. Instead of escaping the pain of your body, mind and soul, you need to lean into the pain in a manageable way, not avoid it (see Chapter 9 for how this can be done). ",
+            "title": "Chapter 2 Breaking Silence"
+          },
+          "similarity_score": 0.9897412681579589
+        },
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "- Non-proportionate expressions of emotion, or the seeming absence of emotional expression \n- Chronic experiences of spacing out, detachment, feelings of unreality or disorientation\n- Proneness to distrust, anger, rage, and aggression\n- Patterns of experiencing harm as an adult (e.g., being abused by one\u2019s partner, placing oneself in unsafe physical or sexual situations)\n- Substance abuse\n- Patterns of withdrawal and isolation from others\n- Problematic patterns in intimate relationships\n- Debilitating compulsive behaviours\n- Patterns of \u201cacting out\u201d or risk-taking behaviours, either as a youth or an adult \n- Eating disorders and/or patterns of preoccupation with one\u2019s body, shape and look\n- Patterns of harming one\u2019s physical self\n- Thoughts or actions that could be considered suicidal in nature\n- Experiencing problems in one\u2019s sexual identity or sexual expression that seem connected to the past\n- Conflict with authority figures, such as bosses, police officers and the like",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9873668110370636
+        }
+      ],
+      "id": "55c23c10",
+      "is_relevant": true,
+      "label": "Coping with Triggers",
+      "related_parent_id": "68c21cc5",
+      "related_parent_label": "Coping and Recovery Tools",
+      "score": 0.25671045382817587,
+      "type": "child"
+    },
+    {
+      "description": "Avoidance can include emotional withdrawal, denial, or distraction to keep distressing thoughts or feelings at bay.",
+      "excerpt_summary": "Trauma recovery often necessitates a profound shift in how we approach our emotional experiences. While it's common to instinctively try to manage distress through silence, isolation, or intellectualization \u207d\u00b9\u207e\u207d\u00b2\u207e, true healing paradoxically requires a different path. Rather than escaping pain, we are encouraged to \"lean into the pain in a manageable way, not avoid it\" \u207d\u00b2\u207e. This means actively countering avoidance behaviors that keep distressing thoughts and feelings at bay, such as emotional withdrawal or denial \u207d\u00b9\u207e. Embracing this principle means understanding that \"true strength comes from admitting you are vulnerable\" \u207d\u00b2\u207e. A vital coping and recovery tool in this process is developing emotional literacy, which involves practicing the expression of feelings and fostering genuine social connections \u207d\u00b9\u207e. This helps to manage intense emotions, including anxiety, by creating space for vulnerability and shared understanding \u207d\u00b9\u207e. Practicing emotional expression, as seen in group settings, helps individuals to identify and articulate their feelings, such as anxiety, which is a crucial step in emotional regulation \u207d\u00b9\u207e.\n\n> *\"Let's hear from everyone in our opening (closing) round and 'check-in.' In a few words, tell us how you are feeling right now, at this very moment (e.g. glad, sad, mad, anxious, calm, etc.). Feelings more than thoughts.\"* \u207d\u00b9\u207e\n\nBy naming our feelings, we build the foundation for regulating emotional responses and moving through fear, as \"courage is not the absence of fear but moving forward regardless\" \u207d\u00b2\u207e.\n\nWhen foundational healing tools are not embraced, unaddressed trauma can manifest in a wide range of complex and often self-defeating ways. Problematic coping mechanisms may emerge, including \"substance abuse,\" \"debilitating compulsive behaviours,\" or \"patterns of harming one\u2019s physical self\" \u207d\u00b3\u207e. These actions often serve as desperate attempts to manage intense pain, distress, or the persistent fear associated with anxiety \u207d\u00b3\u207e. Avoidance behaviors can also become deeply ingrained, appearing as chronic detachment, withdrawal, or isolation from others \u207d\u00b3\u207e.\n\n> *You may note a friction in the work ahead: silence and isolation have been essential to managing your pain, but articulating your experience and finding social bonds are now going to prove essential on your path to recovery. This is one of the many paradoxes required for trauma recovery. We will explore that in a bit.* \u207d\u00b9\u207e\n\nRecognizing these patterns, whether they are expressions of anxiety, problematic coping, or avoidance, is a crucial step towards adopting recovery tools that foster genuine connection, emotional truth-telling, and a courageous willingness to engage with your healing journey \u207d\u00b9\u207e.\n\n## References\n\u207d1\u207e Goodwin, R. (2025). *Men's Road to Healing*. Self-published. [Get this book](http://strongafter.org)\n\u207d2\u207e Unknown Author. *MR2H Chapter 1 A Couple of Things You Ought to Know*. [Get this book](http://strongafter.org)",
+      "excerpts": [
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "Active listening, empathy and understanding, being supportive and reflective are all aspects of holding space for one another. Once you choose who can hold space for your story, you are no longer alone on your journey to recovery. \n\nYou may note a friction in the work ahead: silence and isolation have been essential to managing your pain, but articulating your experience and finding social bonds are now going to prove essential on your path to recovery. This is one of the many paradoxes required for trauma recovery. We will explore that in a bit.\n\n## Emotional Literacy\n\nAll skills require practice. Men in therapy are no exception. Twice a meeting, men in our trauma recovery groups practise deepening their emotional expression:\n\n*\"Let's hear from everyone in our opening (closing) round and 'check-in.' In a few words, tell us how you are feeling right now, at this very moment (e.g. glad, sad, mad, anxious, calm, etc.). Feelings more than thoughts.\"*\n\nThis instruction rails against the ingrained principle of responding to \"How are you?\" with a facile, socially accepted reply like, \"I'm good.\" Yet, it is on this deeper, more profound level that we must start building emotional literacy. The work of expressing emotional vulnerability is essential \u2014 a form of truth-telling you can start practising in your day-to-day life. ",
+            "title": "Chapter 2 Breaking Silence"
+          },
+          "similarity_score": 0.9909271329641343
+        },
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "Yet, paradoxical thinking can also lead you to healing. Consider the following statements as guides to your recovery:\n\n - You gain more control over your life by learning to let go of control.\n - True strength comes from admitting you are vulnerable.\n - You move forward by learning to sit with the past.\n - Courage is not the absence of fear but moving forward regardless\n\nDespite your best efforts, *you can't think your way to trauma recovery*. It is not a linear process that can be intellectualized. Instead of escaping the pain of your body, mind and soul, you need to lean into the pain in a manageable way, not avoid it (see Chapter 9 for how this can be done). ",
+            "title": "Chapter 2 Breaking Silence"
+          },
+          "similarity_score": 0.9897412681579589
+        },
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "- Non-proportionate expressions of emotion, or the seeming absence of emotional expression \n- Chronic experiences of spacing out, detachment, feelings of unreality or disorientation\n- Proneness to distrust, anger, rage, and aggression\n- Patterns of experiencing harm as an adult (e.g., being abused by one\u2019s partner, placing oneself in unsafe physical or sexual situations)\n- Substance abuse\n- Patterns of withdrawal and isolation from others\n- Problematic patterns in intimate relationships\n- Debilitating compulsive behaviours\n- Patterns of \u201cacting out\u201d or risk-taking behaviours, either as a youth or an adult \n- Eating disorders and/or patterns of preoccupation with one\u2019s body, shape and look\n- Patterns of harming one\u2019s physical self\n- Thoughts or actions that could be considered suicidal in nature\n- Experiencing problems in one\u2019s sexual identity or sexual expression that seem connected to the past\n- Conflict with authority figures, such as bosses, police officers and the like",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9873668110370636
+        }
+      ],
+      "id": "1e381370",
+      "is_relevant": true,
+      "label": "Avoidance Behaviors",
+      "related_parent_id": "2516db5a",
+      "related_parent_label": "Addiction and Coping Mechanisms",
+      "score": 0.254375159740448,
+      "type": "child"
+    }
+  ],
+  "total_time_ms": 22964.303016662598
+}

@@ -1,0 +1,114 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  
+  header {
+    margin-bottom: 2rem;
+
+    .header-content-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      
+      .logo {
+        max-height: 414px;
+        width: auto;
+        object-fit: contain;
+      }
+    }
+
+    // .header-controls can be kept for future use, or removed if definitely not needed
+    // .header-controls {
+    //   display: flex; // Or none, if completely removing
+    //   flex-direction: column; 
+    //   align-items: flex-end; 
+    //   gap: 0.5rem; 
+    // }
+  }
+  
+  .theme-toggle {
+    .theme-button {
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      padding: 0.5rem;
+      border-radius: 50%;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: var(--hover-color);
+      }
+    }
+  }
+  
+  .developer-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+    .toggle-label {
+      font-size: 0.9rem;
+      color: var(--text-color);
+    }
+    
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+      
+      input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+        
+        &:checked + .slider {
+          background-color: var(--primary-color);
+        }
+        
+        &:checked + .slider:before {
+          transform: translateX(26px);
+        }
+      }
+      
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: var(--border-color);
+        transition: .4s;
+        
+        &:before {
+          position: absolute;
+          content: "";
+          height: 26px;
+          width: 26px;
+          left: 4px;
+          bottom: 4px;
+          background-color: white;
+          transition: .4s;
+        }
+        
+        &.round {
+          border-radius: 34px;
+          
+          &:before {
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}

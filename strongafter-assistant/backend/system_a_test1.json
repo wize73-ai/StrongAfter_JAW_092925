@@ -1,0 +1,215 @@
+{
+  "debug": {
+    "confidence": 0.005058329131295494,
+    "deterministic_ok": false,
+    "entropy": 2.057525288136791,
+    "margin": 0.07075551586565765,
+    "promote_qf": true,
+    "safety_hit": false
+  },
+  "mode": "quality_first",
+  "original": "I feel anxious about work and struggle with setting boundaries",
+  "themes": [
+    {
+      "description": "Workplaces can trigger trauma-related stress, impact self-worth, or present barriers to stability and success.",
+      "excerpt_summary": "It's incredibly brave to explore how past experiences might be shaping your present, and understanding this connection is a powerful step in your healing journey. It's important to recognize that trauma's impact is deeply personal and multifaceted. Research confirms that \"many factors can affect the extent of trauma in a man\u2019s life\"\u207d\u00b9\u207e, and these experiences, alongside individual personality variables, shape \"a man's degree of pain and trauma\"\u207d\u00b2\u207e. What truly matters is your personal truth regarding past harm; you don't need to justify it to anyone. As the text states:\n\n> *In sum, if you believe you have been harmed in your childhood, then you have been harmed. You don't need to quantify (or qualify) this to anyone to pursue your recovery. Comparing yourself to others or to some other standard \u2014 while a normal response \u2014 doesn't tend to help with recovery. Your experience and journey is what matters.* \u207d\u00b2\u207e\n\nThis foundational understanding helps us see how past experiences, even without conscious recall, can show up as \"a pattern of behaviours in one\u2019s adult life\"\u207d\u00b2\u207e. These patterns often touch upon themes of Regulating Emotions and Thoughts and Boundaries in Relationships. For instance, emotional responses might be out of sync with present situations, appearing as \"Non-proportionate expressions of emotion, or the seeming absence of emotional expression\"\u207d\u00b3\u207e. This dysregulation can also manifest as pronounced \"distrust, anger, rage, and aggression\"\u207d\u00b3\u207e. Furthermore, establishing healthy boundaries might be challenging, leading to \"Problematic patterns in intimate relationships\"\u207d\u00b3\u207e or even \"Patterns of experiencing harm as an adult\"\u207d\u00b3\u207e, which underscores how past trauma can affect current relational dynamics and self-protection.\n\nThe ripple effect of trauma extends into various areas, including Career and Work Challenges, where difficulties can appear as \"Conflict with authority figures, such as bosses, police officers and the like\"\u207d\u00b3\u207e. This might involve struggles with assertiveness, boundary setting with colleagues or superiors, or even a sense of being perpetually misunderstood or undervalued in professional settings. Additionally, what might feel like Anxiety and Panic often stems from the body's persistent memory of past threats, leading to experiences like \"Chronic experiences of spacing out, detachment, feelings of unreality or disorientation\"\u207d\u00b3\u207e. While the passages don't explicitly detail Mindfulness and Breathwork, recognizing these patterns of emotional dysregulation and detachment points towards the critical need for tools that help bring the nervous system back into balance. Practices like mindfulness and breathwork can be instrumental in addressing these intense feelings and intrusive thoughts, supporting your journey towards greater emotional stability and resilience.\n\n## References\n\u207d1\u207e Unknown Author. *MR2H Chapter 1 A Couple of Things You Ought to Know*. [Get this book](http://strongafter.org)\n\u207d2\u207e Goodwin, R. (2025). *Men's Road to Healing*. Self-published. [Get this book](http://strongafter.org)",
+      "excerpts": [
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "Research has shown that many factors can affect the extent of trauma in a man\u2019s life:",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9889328122138977
+        },
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "These experiences may affect a man's degree of pain and trauma. Additionally, variables in personality can impact one's resiliency.\n\nIn sum, if you believe you have been harmed in your childhood, then you have been harmed. You don't need to quantify (or qualify) this to anyone to pursue your recovery. Comparing yourself to others or to some other standard \u2014 while a normal response \u2014 doesn't tend to help with recovery. Your experience and journey is what matters. \n\n## The Role Of Memory\n\nSometimes there may be evidence of things that have happened, not due to recall, but in a pattern of behaviours in one's adult life, such as:",
+            "title": "Chapter 1 A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9886160469055176
+        },
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "- Non-proportionate expressions of emotion, or the seeming absence of emotional expression \n- Chronic experiences of spacing out, detachment, feelings of unreality or disorientation\n- Proneness to distrust, anger, rage, and aggression\n- Patterns of experiencing harm as an adult (e.g., being abused by one\u2019s partner, placing oneself in unsafe physical or sexual situations)\n- Substance abuse\n- Patterns of withdrawal and isolation from others\n- Problematic patterns in intimate relationships\n- Debilitating compulsive behaviours\n- Patterns of \u201cacting out\u201d or risk-taking behaviours, either as a youth or an adult \n- Eating disorders and/or patterns of preoccupation with one\u2019s body, shape and look\n- Patterns of harming one\u2019s physical self\n- Thoughts or actions that could be considered suicidal in nature\n- Experiencing problems in one\u2019s sexual identity or sexual expression that seem connected to the past\n- Conflict with authority figures, such as bosses, police officers and the like",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9887258005142212
+        }
+      ],
+      "id": "a2c779d6",
+      "is_relevant": true,
+      "label": "Career and Work Challenges",
+      "related_parent_id": "1b075137",
+      "related_parent_label": "Life After Trauma",
+      "score": 0.31996435594558714,
+      "type": "child"
+    },
+    {
+      "description": "Personal boundaries define physical, emotional, and psychological limits in relationships and are often disrupted by abuse.",
+      "excerpt_summary": "It's incredibly brave to explore how past experiences might be shaping your present, and understanding this connection is a powerful step in your healing journey. It's important to recognize that trauma's impact is deeply personal and multifaceted. Research confirms that \"many factors can affect the extent of trauma in a man\u2019s life\"\u207d\u00b9\u207e, and these experiences, alongside individual personality variables, shape \"a man's degree of pain and trauma\"\u207d\u00b2\u207e. What truly matters is your personal truth regarding past harm; you don't need to justify it to anyone. As the text states:\n\n> *In sum, if you believe you have been harmed in your childhood, then you have been harmed. You don't need to quantify (or qualify) this to anyone to pursue your recovery. Comparing yourself to others or to some other standard \u2014 while a normal response \u2014 doesn't tend to help with recovery. Your experience and journey is what matters.* \u207d\u00b2\u207e\n\nThis foundational understanding helps us see how past experiences, even without conscious recall, can show up as \"a pattern of behaviours in one\u2019s adult life\"\u207d\u00b2\u207e. These patterns often touch upon themes of Regulating Emotions and Thoughts and Boundaries in Relationships. For instance, emotional responses might be out of sync with present situations, appearing as \"Non-proportionate expressions of emotion, or the seeming absence of emotional expression\"\u207d\u00b3\u207e. This dysregulation can also manifest as pronounced \"distrust, anger, rage, and aggression\"\u207d\u00b3\u207e. Furthermore, establishing healthy boundaries might be challenging, leading to \"Problematic patterns in intimate relationships\"\u207d\u00b3\u207e or even \"Patterns of experiencing harm as an adult\"\u207d\u00b3\u207e, which underscores how past trauma can affect current relational dynamics and self-protection.\n\nThe ripple effect of trauma extends into various areas, including Career and Work Challenges, where difficulties can appear as \"Conflict with authority figures, such as bosses, police officers and the like\"\u207d\u00b3\u207e. This might involve struggles with assertiveness, boundary setting with colleagues or superiors, or even a sense of being perpetually misunderstood or undervalued in professional settings. Additionally, what might feel like Anxiety and Panic often stems from the body's persistent memory of past threats, leading to experiences like \"Chronic experiences of spacing out, detachment, feelings of unreality or disorientation\"\u207d\u00b3\u207e. While the passages don't explicitly detail Mindfulness and Breathwork, recognizing these patterns of emotional dysregulation and detachment points towards the critical need for tools that help bring the nervous system back into balance. Practices like mindfulness and breathwork can be instrumental in addressing these intense feelings and intrusive thoughts, supporting your journey towards greater emotional stability and resilience.\n\n## References\n\u207d1\u207e Unknown Author. *MR2H Chapter 1 A Couple of Things You Ought to Know*. [Get this book](http://strongafter.org)\n\u207d2\u207e Goodwin, R. (2025). *Men's Road to Healing*. Self-published. [Get this book](http://strongafter.org)",
+      "excerpts": [
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "Research has shown that many factors can affect the extent of trauma in a man\u2019s life:",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9889328122138977
+        },
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "These experiences may affect a man's degree of pain and trauma. Additionally, variables in personality can impact one's resiliency.\n\nIn sum, if you believe you have been harmed in your childhood, then you have been harmed. You don't need to quantify (or qualify) this to anyone to pursue your recovery. Comparing yourself to others or to some other standard \u2014 while a normal response \u2014 doesn't tend to help with recovery. Your experience and journey is what matters. \n\n## The Role Of Memory\n\nSometimes there may be evidence of things that have happened, not due to recall, but in a pattern of behaviours in one's adult life, such as:",
+            "title": "Chapter 1 A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9886160469055176
+        },
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "- Non-proportionate expressions of emotion, or the seeming absence of emotional expression \n- Chronic experiences of spacing out, detachment, feelings of unreality or disorientation\n- Proneness to distrust, anger, rage, and aggression\n- Patterns of experiencing harm as an adult (e.g., being abused by one\u2019s partner, placing oneself in unsafe physical or sexual situations)\n- Substance abuse\n- Patterns of withdrawal and isolation from others\n- Problematic patterns in intimate relationships\n- Debilitating compulsive behaviours\n- Patterns of \u201cacting out\u201d or risk-taking behaviours, either as a youth or an adult \n- Eating disorders and/or patterns of preoccupation with one\u2019s body, shape and look\n- Patterns of harming one\u2019s physical self\n- Thoughts or actions that could be considered suicidal in nature\n- Experiencing problems in one\u2019s sexual identity or sexual expression that seem connected to the past\n- Conflict with authority figures, such as bosses, police officers and the like",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9887258005142212
+        }
+      ],
+      "id": "49b88f22",
+      "is_relevant": true,
+      "label": "Boundaries in Relationships",
+      "related_parent_id": "28c2ddac",
+      "related_parent_label": "Relationships and Connection",
+      "score": 0.2492088400799295,
+      "type": "child"
+    },
+    {
+      "description": "Anxiety and panic involve persistent fear, racing thoughts, and physical symptoms like a rapid heartbeat or shortness of breath.",
+      "excerpt_summary": "It's incredibly brave to explore how past experiences might be shaping your present, and understanding this connection is a powerful step in your healing journey. It's important to recognize that trauma's impact is deeply personal and multifaceted. Research confirms that \"many factors can affect the extent of trauma in a man\u2019s life\"\u207d\u00b9\u207e, and these experiences, alongside individual personality variables, shape \"a man's degree of pain and trauma\"\u207d\u00b2\u207e. What truly matters is your personal truth regarding past harm; you don't need to justify it to anyone. As the text states:\n\n> *In sum, if you believe you have been harmed in your childhood, then you have been harmed. You don't need to quantify (or qualify) this to anyone to pursue your recovery. Comparing yourself to others or to some other standard \u2014 while a normal response \u2014 doesn't tend to help with recovery. Your experience and journey is what matters.* \u207d\u00b2\u207e\n\nThis foundational understanding helps us see how past experiences, even without conscious recall, can show up as \"a pattern of behaviours in one\u2019s adult life\"\u207d\u00b2\u207e. These patterns often touch upon themes of Regulating Emotions and Thoughts and Boundaries in Relationships. For instance, emotional responses might be out of sync with present situations, appearing as \"Non-proportionate expressions of emotion, or the seeming absence of emotional expression\"\u207d\u00b3\u207e. This dysregulation can also manifest as pronounced \"distrust, anger, rage, and aggression\"\u207d\u00b3\u207e. Furthermore, establishing healthy boundaries might be challenging, leading to \"Problematic patterns in intimate relationships\"\u207d\u00b3\u207e or even \"Patterns of experiencing harm as an adult\"\u207d\u00b3\u207e, which underscores how past trauma can affect current relational dynamics and self-protection.\n\nThe ripple effect of trauma extends into various areas, including Career and Work Challenges, where difficulties can appear as \"Conflict with authority figures, such as bosses, police officers and the like\"\u207d\u00b3\u207e. This might involve struggles with assertiveness, boundary setting with colleagues or superiors, or even a sense of being perpetually misunderstood or undervalued in professional settings. Additionally, what might feel like Anxiety and Panic often stems from the body's persistent memory of past threats, leading to experiences like \"Chronic experiences of spacing out, detachment, feelings of unreality or disorientation\"\u207d\u00b3\u207e. While the passages don't explicitly detail Mindfulness and Breathwork, recognizing these patterns of emotional dysregulation and detachment points towards the critical need for tools that help bring the nervous system back into balance. Practices like mindfulness and breathwork can be instrumental in addressing these intense feelings and intrusive thoughts, supporting your journey towards greater emotional stability and resilience.\n\n## References\n\u207d1\u207e Unknown Author. *MR2H Chapter 1 A Couple of Things You Ought to Know*. [Get this book](http://strongafter.org)\n\u207d2\u207e Goodwin, R. (2025). *Men's Road to Healing*. Self-published. [Get this book](http://strongafter.org)",
+      "excerpts": [
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "Research has shown that many factors can affect the extent of trauma in a man\u2019s life:",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9889328122138977
+        },
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "These experiences may affect a man's degree of pain and trauma. Additionally, variables in personality can impact one's resiliency.\n\nIn sum, if you believe you have been harmed in your childhood, then you have been harmed. You don't need to quantify (or qualify) this to anyone to pursue your recovery. Comparing yourself to others or to some other standard \u2014 while a normal response \u2014 doesn't tend to help with recovery. Your experience and journey is what matters. \n\n## The Role Of Memory\n\nSometimes there may be evidence of things that have happened, not due to recall, but in a pattern of behaviours in one's adult life, such as:",
+            "title": "Chapter 1 A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9886160469055176
+        },
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "- Non-proportionate expressions of emotion, or the seeming absence of emotional expression \n- Chronic experiences of spacing out, detachment, feelings of unreality or disorientation\n- Proneness to distrust, anger, rage, and aggression\n- Patterns of experiencing harm as an adult (e.g., being abused by one\u2019s partner, placing oneself in unsafe physical or sexual situations)\n- Substance abuse\n- Patterns of withdrawal and isolation from others\n- Problematic patterns in intimate relationships\n- Debilitating compulsive behaviours\n- Patterns of \u201cacting out\u201d or risk-taking behaviours, either as a youth or an adult \n- Eating disorders and/or patterns of preoccupation with one\u2019s body, shape and look\n- Patterns of harming one\u2019s physical self\n- Thoughts or actions that could be considered suicidal in nature\n- Experiencing problems in one\u2019s sexual identity or sexual expression that seem connected to the past\n- Conflict with authority figures, such as bosses, police officers and the like",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9887258005142212
+        }
+      ],
+      "id": "4756a596",
+      "is_relevant": true,
+      "label": "Anxiety and Panic",
+      "related_parent_id": "f9815d0a",
+      "related_parent_label": "Mental Health and Emotions",
+      "score": 0.2099901168434708,
+      "type": "child"
+    },
+    {
+      "description": "Mindfulness and breathwork involve paying attention to the present moment and regulating breathing to support nervous system balance.",
+      "excerpt_summary": "It's incredibly brave to explore how past experiences might be shaping your present, and understanding this connection is a powerful step in your healing journey. It's important to recognize that trauma's impact is deeply personal and multifaceted. Research confirms that \"many factors can affect the extent of trauma in a man\u2019s life\"\u207d\u00b9\u207e, and these experiences, alongside individual personality variables, shape \"a man's degree of pain and trauma\"\u207d\u00b2\u207e. What truly matters is your personal truth regarding past harm; you don't need to justify it to anyone. As the text states:\n\n> *In sum, if you believe you have been harmed in your childhood, then you have been harmed. You don't need to quantify (or qualify) this to anyone to pursue your recovery. Comparing yourself to others or to some other standard \u2014 while a normal response \u2014 doesn't tend to help with recovery. Your experience and journey is what matters.* \u207d\u00b2\u207e\n\nThis foundational understanding helps us see how past experiences, even without conscious recall, can show up as \"a pattern of behaviours in one\u2019s adult life\"\u207d\u00b2\u207e. These patterns often touch upon themes of Regulating Emotions and Thoughts and Boundaries in Relationships. For instance, emotional responses might be out of sync with present situations, appearing as \"Non-proportionate expressions of emotion, or the seeming absence of emotional expression\"\u207d\u00b3\u207e. This dysregulation can also manifest as pronounced \"distrust, anger, rage, and aggression\"\u207d\u00b3\u207e. Furthermore, establishing healthy boundaries might be challenging, leading to \"Problematic patterns in intimate relationships\"\u207d\u00b3\u207e or even \"Patterns of experiencing harm as an adult\"\u207d\u00b3\u207e, which underscores how past trauma can affect current relational dynamics and self-protection.\n\nThe ripple effect of trauma extends into various areas, including Career and Work Challenges, where difficulties can appear as \"Conflict with authority figures, such as bosses, police officers and the like\"\u207d\u00b3\u207e. This might involve struggles with assertiveness, boundary setting with colleagues or superiors, or even a sense of being perpetually misunderstood or undervalued in professional settings. Additionally, what might feel like Anxiety and Panic often stems from the body's persistent memory of past threats, leading to experiences like \"Chronic experiences of spacing out, detachment, feelings of unreality or disorientation\"\u207d\u00b3\u207e. While the passages don't explicitly detail Mindfulness and Breathwork, recognizing these patterns of emotional dysregulation and detachment points towards the critical need for tools that help bring the nervous system back into balance. Practices like mindfulness and breathwork can be instrumental in addressing these intense feelings and intrusive thoughts, supporting your journey towards greater emotional stability and resilience.\n\n## References\n\u207d1\u207e Unknown Author. *MR2H Chapter 1 A Couple of Things You Ought to Know*. [Get this book](http://strongafter.org)\n\u207d2\u207e Goodwin, R. (2025). *Men's Road to Healing*. Self-published. [Get this book](http://strongafter.org)",
+      "excerpts": [
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "Research has shown that many factors can affect the extent of trauma in a man\u2019s life:",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9889328122138977
+        },
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "These experiences may affect a man's degree of pain and trauma. Additionally, variables in personality can impact one's resiliency.\n\nIn sum, if you believe you have been harmed in your childhood, then you have been harmed. You don't need to quantify (or qualify) this to anyone to pursue your recovery. Comparing yourself to others or to some other standard \u2014 while a normal response \u2014 doesn't tend to help with recovery. Your experience and journey is what matters. \n\n## The Role Of Memory\n\nSometimes there may be evidence of things that have happened, not due to recall, but in a pattern of behaviours in one's adult life, such as:",
+            "title": "Chapter 1 A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9886160469055176
+        },
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "- Non-proportionate expressions of emotion, or the seeming absence of emotional expression \n- Chronic experiences of spacing out, detachment, feelings of unreality or disorientation\n- Proneness to distrust, anger, rage, and aggression\n- Patterns of experiencing harm as an adult (e.g., being abused by one\u2019s partner, placing oneself in unsafe physical or sexual situations)\n- Substance abuse\n- Patterns of withdrawal and isolation from others\n- Problematic patterns in intimate relationships\n- Debilitating compulsive behaviours\n- Patterns of \u201cacting out\u201d or risk-taking behaviours, either as a youth or an adult \n- Eating disorders and/or patterns of preoccupation with one\u2019s body, shape and look\n- Patterns of harming one\u2019s physical self\n- Thoughts or actions that could be considered suicidal in nature\n- Experiencing problems in one\u2019s sexual identity or sexual expression that seem connected to the past\n- Conflict with authority figures, such as bosses, police officers and the like",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9887258005142212
+        }
+      ],
+      "id": "88437b80",
+      "is_relevant": true,
+      "label": "Mindfulness and Breathwork",
+      "related_parent_id": "68c21cc5",
+      "related_parent_label": "Coping and Recovery Tools",
+      "score": 0.20801626777648924,
+      "type": "child"
+    },
+    {
+      "description": "Emotional dysregulation and intrusive thoughts are common in trauma, often resulting in overwhelm or impulsive behavior.",
+      "excerpt_summary": "It's incredibly brave to explore how past experiences might be shaping your present, and understanding this connection is a powerful step in your healing journey. It's important to recognize that trauma's impact is deeply personal and multifaceted. Research confirms that \"many factors can affect the extent of trauma in a man\u2019s life\"\u207d\u00b9\u207e, and these experiences, alongside individual personality variables, shape \"a man's degree of pain and trauma\"\u207d\u00b2\u207e. What truly matters is your personal truth regarding past harm; you don't need to justify it to anyone. As the text states:\n\n> *In sum, if you believe you have been harmed in your childhood, then you have been harmed. You don't need to quantify (or qualify) this to anyone to pursue your recovery. Comparing yourself to others or to some other standard \u2014 while a normal response \u2014 doesn't tend to help with recovery. Your experience and journey is what matters.* \u207d\u00b2\u207e\n\nThis foundational understanding helps us see how past experiences, even without conscious recall, can show up as \"a pattern of behaviours in one\u2019s adult life\"\u207d\u00b2\u207e. These patterns often touch upon themes of Regulating Emotions and Thoughts and Boundaries in Relationships. For instance, emotional responses might be out of sync with present situations, appearing as \"Non-proportionate expressions of emotion, or the seeming absence of emotional expression\"\u207d\u00b3\u207e. This dysregulation can also manifest as pronounced \"distrust, anger, rage, and aggression\"\u207d\u00b3\u207e. Furthermore, establishing healthy boundaries might be challenging, leading to \"Problematic patterns in intimate relationships\"\u207d\u00b3\u207e or even \"Patterns of experiencing harm as an adult\"\u207d\u00b3\u207e, which underscores how past trauma can affect current relational dynamics and self-protection.\n\nThe ripple effect of trauma extends into various areas, including Career and Work Challenges, where difficulties can appear as \"Conflict with authority figures, such as bosses, police officers and the like\"\u207d\u00b3\u207e. This might involve struggles with assertiveness, boundary setting with colleagues or superiors, or even a sense of being perpetually misunderstood or undervalued in professional settings. Additionally, what might feel like Anxiety and Panic often stems from the body's persistent memory of past threats, leading to experiences like \"Chronic experiences of spacing out, detachment, feelings of unreality or disorientation\"\u207d\u00b3\u207e. While the passages don't explicitly detail Mindfulness and Breathwork, recognizing these patterns of emotional dysregulation and detachment points towards the critical need for tools that help bring the nervous system back into balance. Practices like mindfulness and breathwork can be instrumental in addressing these intense feelings and intrusive thoughts, supporting your journey towards greater emotional stability and resilience.\n\n## References\n\u207d1\u207e Unknown Author. *MR2H Chapter 1 A Couple of Things You Ought to Know*. [Get this book](http://strongafter.org)\n\u207d2\u207e Goodwin, R. (2025). *Men's Road to Healing*. Self-published. [Get this book](http://strongafter.org)",
+      "excerpts": [
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "Research has shown that many factors can affect the extent of trauma in a man\u2019s life:",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9889328122138977
+        },
+        {
+          "excerpt": {
+            "book_url": "https://menandhealing.ca/",
+            "headers": [],
+            "text": "These experiences may affect a man's degree of pain and trauma. Additionally, variables in personality can impact one's resiliency.\n\nIn sum, if you believe you have been harmed in your childhood, then you have been harmed. You don't need to quantify (or qualify) this to anyone to pursue your recovery. Comparing yourself to others or to some other standard \u2014 while a normal response \u2014 doesn't tend to help with recovery. Your experience and journey is what matters. \n\n## The Role Of Memory\n\nSometimes there may be evidence of things that have happened, not due to recall, but in a pattern of behaviours in one's adult life, such as:",
+            "title": "Chapter 1 A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9886160469055176
+        },
+        {
+          "excerpt": {
+            "book_url": "https://1in6.org/male-survivor-stories/rick-goodwin/",
+            "headers": [],
+            "text": "- Non-proportionate expressions of emotion, or the seeming absence of emotional expression \n- Chronic experiences of spacing out, detachment, feelings of unreality or disorientation\n- Proneness to distrust, anger, rage, and aggression\n- Patterns of experiencing harm as an adult (e.g., being abused by one\u2019s partner, placing oneself in unsafe physical or sexual situations)\n- Substance abuse\n- Patterns of withdrawal and isolation from others\n- Problematic patterns in intimate relationships\n- Debilitating compulsive behaviours\n- Patterns of \u201cacting out\u201d or risk-taking behaviours, either as a youth or an adult \n- Eating disorders and/or patterns of preoccupation with one\u2019s body, shape and look\n- Patterns of harming one\u2019s physical self\n- Thoughts or actions that could be considered suicidal in nature\n- Experiencing problems in one\u2019s sexual identity or sexual expression that seem connected to the past\n- Conflict with authority figures, such as bosses, police officers and the like",
+            "title": "MR2H  Chapter 1   A Couple of Things You Ought to Know"
+          },
+          "similarity_score": 0.9887258005142212
+        }
+      ],
+      "id": "b0ebfd47",
+      "is_relevant": true,
+      "label": "Regulating Emotions and Thoughts",
+      "related_parent_id": "68c21cc5",
+      "related_parent_label": "Coping and Recovery Tools",
+      "score": 0.18373754116205068,
+      "type": "child"
+    }
+  ],
+  "total_time_ms": 17008.93521308899
+}

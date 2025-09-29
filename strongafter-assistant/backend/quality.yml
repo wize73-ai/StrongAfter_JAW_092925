@@ -1,0 +1,61 @@
+# StrongAfter Quality Configuration for Adaptive Processing
+# Defines processing modes, confidence thresholds, and safety parameters
+# for the optimized trauma recovery text processing pipeline
+
+# Processing modes with different speed/quality tradeoffs
+# Enables adaptive processing based on content complexity and confidence
+modes:
+  instant:
+    # Fastest mode for high-confidence, simple requests
+    model: gemini-2.5-flash-preview-05-20
+    max_output_tokens: 120
+    temperature: 0.4
+    timeout_s: 2.0
+  
+  balanced:
+    # Default mode balancing speed and quality
+    model: gemini-2.5-flash-preview-05-20
+    max_output_tokens: 140
+    temperature: 0.4
+    timeout_s: 2.5
+  
+  quality_first:
+    # High-quality mode for sensitive content and complex requests
+    model: gemini-2.5-flash-preview-05-20
+    max_output_tokens: 220
+    temperature: 0.3      # Lower temperature for more focused responses
+    timeout_s: 4.0        # Extended timeout for thorough processing
+
+# Confidence thresholds for adaptive mode selection
+# These metrics determine when to escalate to quality_first processing
+thresholds:
+  # Promote to quality_first if margin between top themes < 0.07
+  confidence_promote_qf_margin: 0.07
+  
+  # Promote to quality_first if score entropy > 1.2 (uncertain distribution)
+  confidence_promote_qf_entropy: 1.2
+  
+  # Promote to quality_first if top cosine similarity < 0.30 (poor match)
+  confidence_promote_qf_top_cosine: 0.30
+  
+  # Skip LLM entirely if confidence > 0.80 (very high confidence)
+  deterministic_skip_llm_confidence: 0.80
+  
+  # Minimum cosine similarity for citation inclusion
+  min_citation_cosine: 0.30
+
+# Retrieval and ranking parameters for theme selection
+retrieval:
+  # Number of themes from FAISS dense search
+  faiss_k: 3
+  
+  # Number of themes in pre-filtering stage
+  theme_prefilter_k: 8
+  
+  # Final number of themes for citation generation
+  theme_rank_k: 5
+
+# Safety terms that trigger quality_first mode
+# Ensures sensitive trauma/crisis content receives enhanced processing
+safety:
+  must_include_terms: ["self harm", "suicide", "abuse", "violence", "assault", "emergency", "kill myself", "end it"]

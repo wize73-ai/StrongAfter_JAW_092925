@@ -1,0 +1,84 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.status-section {
+  margin-bottom: 20px;
+}
+
+.search-section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.search-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.search-input button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-input button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.search-results {
+  margin-top: 20px;
+}
+
+.result-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.similarity-score {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+
+.excerpt-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.excerpt-text {
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+.book-section {
+  margin-top: 20px;
+}
+
+pre {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 4px;
+  overflow-x: auto;
+} 

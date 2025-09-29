@@ -1,0 +1,482 @@
+[
+  {
+    "id":"2516db5a",
+    "label":"Addiction and Coping Mechanisms",
+    "description":"Examines the links between trauma and behaviors like substance use or self-harm used to manage pain or distress.",
+    "type":"parent",
+    "related_parent_label":null,
+    "related_parent_id":null
+  },
+  {
+    "id":"1e381370",
+    "label":"Avoidance Behaviors",
+    "description":"Avoidance can include emotional withdrawal, denial, or distraction to keep distressing thoughts or feelings at bay.",
+    "type":"child",
+    "related_parent_label":"Addiction and Coping Mechanisms",
+    "related_parent_id":"2516db5a"
+  },
+  {
+    "id":"84bb965c",
+    "label":"Recovery from Addiction",
+    "description":"Addiction recovery involves recognizing patterns of dependency and rebuilding relationships with oneself and others.",
+    "type":"child",
+    "related_parent_label":"Addiction and Coping Mechanisms",
+    "related_parent_id":"2516db5a"
+  },
+  {
+    "id":"10c19282",
+    "label":"Seeking Support for Addiction",
+    "description":"Seeking support for addiction often intersects with addressing the underlying trauma that contributed to it.",
+    "type":"child",
+    "related_parent_label":"Addiction and Coping Mechanisms",
+    "related_parent_id":"2516db5a"
+  },
+  {
+    "id":"7bff5f2f",
+    "label":"Substance Use and Trauma",
+    "description":"Substance use may develop as a strategy to numb emotional pain or to escape traumatic memories.",
+    "type":"child",
+    "related_parent_label":"Addiction and Coping Mechanisms",
+    "related_parent_id":"2516db5a"
+  },
+  {
+    "id":"e2da8099",
+    "label":"Understanding Self-Destructive Patterns",
+    "description":"Self-destructive behaviors can be rooted in shame, self-blame, or unresolved trauma.",
+    "type":"child",
+    "related_parent_label":"Addiction and Coping Mechanisms",
+    "related_parent_id":"2516db5a"
+  },
+  {
+    "id":"46100326",
+    "label":"Barriers to Healing",
+    "description":"Acknowledges the societal, cultural, and internal obstacles that can make it difficult for survivors to begin or continue healing.",
+    "type":"parent",
+    "related_parent_label":null,
+    "related_parent_id":null
+  },
+  {
+    "id":"53e0555c",
+    "label":"Avoidance and Denial",
+    "description":"Avoidance and denial are protective strategies used to keep painful memories or emotions at a distance.",
+    "type":"child",
+    "related_parent_label":"Barriers to Healing",
+    "related_parent_id":"46100326"
+  },
+  {
+    "id":"9fca9564",
+    "label":"Cultural and Racial Barriers",
+    "description":"Cultural norms and racial inequities may limit access to care, amplify stigma, or shape how trauma is interpreted.",
+    "type":"child",
+    "related_parent_label":"Barriers to Healing",
+    "related_parent_id":"46100326"
+  },
+  {
+    "id":"e14e0b66",
+    "label":"Fear of Not Being Believed",
+    "description":"Many survivors fear disbelief, dismissal, or blame when disclosing abuse, especially in male-identified contexts.",
+    "type":"child",
+    "related_parent_label":"Barriers to Healing",
+    "related_parent_id":"46100326"
+  },
+  {
+    "id":"d81cf9f6",
+    "label":"Myths About Male Survivors",
+    "description":"Common myths include the false beliefs that men can\u2019t be victims or that abuse always causes visible trauma.",
+    "type":"child",
+    "related_parent_label":"Barriers to Healing",
+    "related_parent_id":"46100326"
+  },
+  {
+    "id":"cf9d8e88",
+    "label":"Stigma and Shame",
+    "description":"Stigma and shame can silence survivors, reinforcing harmful ideas about masculinity, weakness, or victimhood.",
+    "type":"child",
+    "related_parent_label":"Barriers to Healing",
+    "related_parent_id":"46100326"
+  },
+  {
+    "id":"68c21cc5",
+    "label":"Coping and Recovery Tools",
+    "description":"Introduces techniques that help manage distress, improve emotional regulation, and support trauma recovery.",
+    "type":"parent",
+    "related_parent_label":null,
+    "related_parent_id":null
+  },
+  {
+    "id":"55c23c10",
+    "label":"Coping with Triggers",
+    "description":"Triggers are reminders of trauma that can cause emotional or physiological reactions, often without warning.",
+    "type":"child",
+    "related_parent_label":"Coping and Recovery Tools",
+    "related_parent_id":"68c21cc5"
+  },
+  {
+    "id":"ae8d3b85",
+    "label":"Grounding Techniques",
+    "description":"Grounding practices are methods that help individuals reconnect with the present through sensory or physical focus.",
+    "type":"child",
+    "related_parent_label":"Coping and Recovery Tools",
+    "related_parent_id":"68c21cc5"
+  },
+  {
+    "id":"3f698f31",
+    "label":"Managing Flashbacks",
+    "description":"Flashbacks are intrusive, distressing relivings of past trauma that can be triggered by sounds, images, or feelings.",
+    "type":"child",
+    "related_parent_label":"Coping and Recovery Tools",
+    "related_parent_id":"68c21cc5"
+  },
+  {
+    "id":"88437b80",
+    "label":"Mindfulness and Breathwork",
+    "description":"Mindfulness and breathwork involve paying attention to the present moment and regulating breathing to support nervous system balance.",
+    "type":"child",
+    "related_parent_label":"Coping and Recovery Tools",
+    "related_parent_id":"68c21cc5"
+  },
+  {
+    "id":"b0ebfd47",
+    "label":"Regulating Emotions and Thoughts",
+    "description":"Emotional dysregulation and intrusive thoughts are common in trauma, often resulting in overwhelm or impulsive behavior.",
+    "type":"child",
+    "related_parent_label":"Coping and Recovery Tools",
+    "related_parent_id":"68c21cc5"
+  },
+  {
+    "id":"f23fc897",
+    "label":"Justice and Legal Options",
+    "description":"Provides context around the legal choices available to survivors and the challenges they may face when seeking justice.",
+    "type":"parent",
+    "related_parent_label":null,
+    "related_parent_id":null
+  },
+  {
+    "id":"dcb1d27c",
+    "label":"Barriers to Justice",
+    "description":"Barriers may include disbelief, systemic bias, lack of access, or retraumatization through the legal process.",
+    "type":"child",
+    "related_parent_label":"Justice and Legal Options",
+    "related_parent_id":"f23fc897"
+  },
+  {
+    "id":"a6005330",
+    "label":"Civil Options and Restitution",
+    "description":"Civil legal options can include lawsuits, compensation claims, or protective orders outside the criminal system.",
+    "type":"child",
+    "related_parent_label":"Justice and Legal Options",
+    "related_parent_id":"f23fc897"
+  },
+  {
+    "id":"9d96cb00",
+    "label":"Criminal Justice System",
+    "description":"Engaging with the criminal justice system can involve reporting, investigation, legal proceedings, and varying outcomes.",
+    "type":"child",
+    "related_parent_label":"Justice and Legal Options",
+    "related_parent_id":"f23fc897"
+  },
+  {
+    "id":"2c97de50",
+    "label":"Navigating the Process",
+    "description":"Legal systems can be complex, requiring survivors to engage with law enforcement, attorneys, and court procedures.",
+    "type":"child",
+    "related_parent_label":"Justice and Legal Options",
+    "related_parent_id":"f23fc897"
+  },
+  {
+    "id":"d0e63c4d",
+    "label":"Reporting Abuse",
+    "description":"Reporting abuse is a personal decision involving potential legal, emotional, and social consequences.",
+    "type":"child",
+    "related_parent_label":"Justice and Legal Options",
+    "related_parent_id":"f23fc897"
+  },
+  {
+    "id":"1b075137",
+    "label":"Life After Trauma",
+    "description":"Focuses on reclaiming a sense of self, purpose, and possibility as part of the long-term healing journey.",
+    "type":"parent",
+    "related_parent_label":null,
+    "related_parent_id":null
+  },
+  {
+    "id":"a2c779d6",
+    "label":"Career and Work Challenges",
+    "description":"Workplaces can trigger trauma-related stress, impact self-worth, or present barriers to stability and success.",
+    "type":"child",
+    "related_parent_label":"Life After Trauma",
+    "related_parent_id":"1b075137"
+  },
+  {
+    "id":"fdbb95e5",
+    "label":"Meaning and Purpose",
+    "description":"Seeking meaning and purpose after trauma can support motivation, direction, and a renewed sense of life.",
+    "type":"child",
+    "related_parent_label":"Life After Trauma",
+    "related_parent_id":"1b075137"
+  },
+  {
+    "id":"7d852067",
+    "label":"Moving Forward",
+    "description":"Moving forward involves integrating the trauma experience while continuing to grow, connect, and hope.",
+    "type":"child",
+    "related_parent_label":"Life After Trauma",
+    "related_parent_id":"1b075137"
+  },
+  {
+    "id":"390423df",
+    "label":"Rebuilding Identity",
+    "description":"Trauma can fragment self-perception, prompting survivors to redefine their sense of identity and belonging.",
+    "type":"child",
+    "related_parent_label":"Life After Trauma",
+    "related_parent_id":"1b075137"
+  },
+  {
+    "id":"6870f20e",
+    "label":"Spirituality and Healing",
+    "description":"Spiritual practices or beliefs may offer comfort, connection, or existential insight during recovery.",
+    "type":"child",
+    "related_parent_label":"Life After Trauma",
+    "related_parent_id":"1b075137"
+  },
+  {
+    "id":"f9815d0a",
+    "label":"Mental Health and Emotions",
+    "description":"Explores the emotional and psychological consequences of trauma, including diagnosable conditions and complex emotional states.",
+    "type":"parent",
+    "related_parent_label":null,
+    "related_parent_id":null
+  },
+  {
+    "id":"344b961e",
+    "label":"Anger and Aggression",
+    "description":"Anger and aggression can stem from unresolved trauma, emotional repression, or chronic feelings of powerlessness.",
+    "type":"child",
+    "related_parent_label":"Mental Health and Emotions",
+    "related_parent_id":"f9815d0a"
+  },
+  {
+    "id":"4756a596",
+    "label":"Anxiety and Panic",
+    "description":"Anxiety and panic involve persistent fear, racing thoughts, and physical symptoms like a rapid heartbeat or shortness of breath.",
+    "type":"child",
+    "related_parent_label":"Mental Health and Emotions",
+    "related_parent_id":"f9815d0a"
+  },
+  {
+    "id":"cc29c6c2",
+    "label":"Depression and Hopelessness",
+    "description":"Depression may manifest as sadness, emotional numbness, loss of interest, and feelings of worthlessness or despair.",
+    "type":"child",
+    "related_parent_label":"Mental Health and Emotions",
+    "related_parent_id":"f9815d0a"
+  },
+  {
+    "id":"0b66f5c7",
+    "label":"Grief and Shame",
+    "description":"Grief and shame are complex emotional responses to loss, violation, or internalized blame following trauma.",
+    "type":"child",
+    "related_parent_label":"Mental Health and Emotions",
+    "related_parent_id":"f9815d0a"
+  },
+  {
+    "id":"741b9bbe",
+    "label":"PTSD and Dissociation",
+    "description":"Post-traumatic stress and dissociation are survival responses that can fragment memory, identity, and presence.",
+    "type":"child",
+    "related_parent_label":"Mental Health and Emotions",
+    "related_parent_id":"f9815d0a"
+  },
+  {
+    "id":"28c2ddac",
+    "label":"Relationships and Connection",
+    "description":"Looks at how trauma influences trust, connection, communication, and boundaries in all types of relationships.",
+    "type":"parent",
+    "related_parent_label":null,
+    "related_parent_id":null
+  },
+  {
+    "id":"49b88f22",
+    "label":"Boundaries in Relationships",
+    "description":"Personal boundaries define physical, emotional, and psychological limits in relationships and are often disrupted by abuse.",
+    "type":"child",
+    "related_parent_label":"Relationships and Connection",
+    "related_parent_id":"28c2ddac"
+  },
+  {
+    "id":"5ed7d99a",
+    "label":"Friendships and Support Systems",
+    "description":"Strong support systems can include friends, chosen family, or peers who provide safety, validation, and acceptance.",
+    "type":"child",
+    "related_parent_label":"Relationships and Connection",
+    "related_parent_id":"28c2ddac"
+  },
+  {
+    "id":"da1ed7d0",
+    "label":"Healthy Communication",
+    "description":"Effective communication involves clarity, emotional honesty, listening, and boundary-setting in relationships.",
+    "type":"child",
+    "related_parent_label":"Relationships and Connection",
+    "related_parent_id":"28c2ddac"
+  },
+  {
+    "id":"228ad94a",
+    "label":"Partner and Family Dynamics",
+    "description":"Family and partner relationships can be strained by the impacts of trauma, including communication breakdowns and misunderstanding.",
+    "type":"child",
+    "related_parent_label":"Relationships and Connection",
+    "related_parent_id":"28c2ddac"
+  },
+  {
+    "id":"2f4e1b1e",
+    "label":"Trust and Intimacy",
+    "description":"Trauma can disrupt the ability to trust others and to feel safe in emotionally or physically intimate situations.",
+    "type":"child",
+    "related_parent_label":"Relationships and Connection",
+    "related_parent_id":"28c2ddac"
+  },
+  {
+    "id":"6c133423",
+    "label":"Sexuality and Intimacy",
+    "description":"Explores how trauma can affect sexual identity, intimacy, and physical connection with oneself and others.",
+    "type":"parent",
+    "related_parent_label":null,
+    "related_parent_id":null
+  },
+  {
+    "id":"8cd8e2c0",
+    "label":"Arousal and Confusion",
+    "description":"Sexual trauma can cause confusion around arousal, desire, and body responses, leading to distress or shame.",
+    "type":"child",
+    "related_parent_label":"Sexuality and Intimacy",
+    "related_parent_id":"6c133423"
+  },
+  {
+    "id":"8aaa76e0",
+    "label":"Navigating Intimacy After Trauma",
+    "description":"Intimacy after trauma may bring up fear, mistrust, or disconnection, even in safe relationships.",
+    "type":"child",
+    "related_parent_label":"Sexuality and Intimacy",
+    "related_parent_id":"6c133423"
+  },
+  {
+    "id":"b533ffc1",
+    "label":"Reclaiming Pleasure and Consent",
+    "description":"Healing involves redefining pleasure and restoring a sense of choice, voice, and bodily autonomy.",
+    "type":"child",
+    "related_parent_label":"Sexuality and Intimacy",
+    "related_parent_id":"6c133423"
+  },
+  {
+    "id":"feeab5cf",
+    "label":"Sexual Healing and Recovery",
+    "description":"Sexual healing may involve reestablishing a sense of safety, agency, and comfort in one\u2019s body and sexual identity.",
+    "type":"child",
+    "related_parent_label":"Sexuality and Intimacy",
+    "related_parent_id":"6c133423"
+  },
+  {
+    "id":"1aca2d50",
+    "label":"Sexual Orientation and Identity",
+    "description":"Experiences of abuse can complicate or intersect with one\u2019s understanding of sexual orientation or gender identity.",
+    "type":"child",
+    "related_parent_label":"Sexuality and Intimacy",
+    "related_parent_id":"6c133423"
+  },
+  {
+    "id":"1a5c94e5",
+    "label":"Support for Partners and Allies",
+    "description":"Helps those close to survivors better understand trauma and provide support without overstepping personal boundaries.",
+    "type":"parent",
+    "related_parent_label":null,
+    "related_parent_id":null
+  },
+  {
+    "id":"540beab1",
+    "label":"How to Talk About Abuse",
+    "description":"Discussing abuse can be emotionally charged, requiring clarity, consent, and emotional readiness from all parties.",
+    "type":"child",
+    "related_parent_label":"Support for Partners and Allies",
+    "related_parent_id":"1a5c94e5"
+  },
+  {
+    "id":"ca731911",
+    "label":"Self-Care for Partners",
+    "description":"Partners may experience secondary trauma, compassion fatigue, or emotional strain while supporting a survivor.",
+    "type":"child",
+    "related_parent_label":"Support for Partners and Allies",
+    "related_parent_id":"1a5c94e5"
+  },
+  {
+    "id":"c6f4ff40",
+    "label":"Supporting Without Overstepping",
+    "description":"Support involves respecting autonomy, validating pain, and avoiding attempts to control the survivor\u2019s healing.",
+    "type":"child",
+    "related_parent_label":"Support for Partners and Allies",
+    "related_parent_id":"1a5c94e5"
+  },
+  {
+    "id":"18b3c704",
+    "label":"Understanding His Trauma",
+    "description":"Understanding trauma means recognizing how it affects memory, mood, behavior, and relationships.",
+    "type":"child",
+    "related_parent_label":"Support for Partners and Allies",
+    "related_parent_id":"1a5c94e5"
+  },
+  {
+    "id":"5cbc8196",
+    "label":"When Your Child or Friend Discloses",
+    "description":"Disclosures may come with confusion, distress, or urgency, and require a calm, affirming response.",
+    "type":"child",
+    "related_parent_label":"Support for Partners and Allies",
+    "related_parent_id":"1a5c94e5"
+  },
+  {
+    "id":"44ba8d57",
+    "label":"Understanding Abuse",
+    "description":"Describes the nature, impact, and misconceptions of sexual abuse to help make sense of its emotional and psychological effects.",
+    "type":"parent",
+    "related_parent_label":null,
+    "related_parent_id":null
+  },
+  {
+    "id":"641d8d79",
+    "label":"Common Effects of Abuse",
+    "description":"Survivors may experience emotional, psychological, and physical responses such as fear, shame, numbness, or hypervigilance.",
+    "type":"child",
+    "related_parent_label":"Understanding Abuse",
+    "related_parent_id":"44ba8d57"
+  },
+  {
+    "id":"57891af7",
+    "label":"Myths and Misconceptions",
+    "description":"Cultural and societal narratives often minimize, distort, or deny the realities of male sexual abuse.",
+    "type":"child",
+    "related_parent_label":"Understanding Abuse",
+    "related_parent_id":"44ba8d57"
+  },
+  {
+    "id":"7bb240de",
+    "label":"Recognizing Trauma Responses",
+    "description":"Trauma responses can include dissociation, emotional numbing, hyperarousal, flashbacks, and avoidance.",
+    "type":"child",
+    "related_parent_label":"Understanding Abuse",
+    "related_parent_id":"44ba8d57"
+  },
+  {
+    "id":"97d485bb",
+    "label":"What Is Sexual Abuse?",
+    "description":"Sexual abuse involves any unwanted or non-consensual sexual act, often involving coercion, manipulation, or force.",
+    "type":"child",
+    "related_parent_label":"Understanding Abuse",
+    "related_parent_id":"44ba8d57"
+  },
+  {
+    "id":"2bb4320d",
+    "label":"When Abuse Happens in Childhood",
+    "description":"Childhood abuse can disrupt development, attachment, and identity, with long-lasting effects into adulthood.",
+    "type":"child",
+    "related_parent_label":"Understanding Abuse",
+    "related_parent_id":"44ba8d57"
+  }
+]

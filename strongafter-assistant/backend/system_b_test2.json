@@ -1,0 +1,33 @@
+{
+  "blackboard_metrics": {
+    "agent_contributions": {
+      "BlackboardService": 1,
+      "ControlStrategy": 3,
+      "SummaryGenerationAgent": 5
+    },
+    "blackboard_size": 17,
+    "completion_status": false,
+    "processing_stages": {
+      "summarygeneration": [
+        0.6673750877380371
+      ]
+    },
+    "total_processing_time": 0.6675310134887695,
+    "total_reads": 10,
+    "total_writes": 9
+  },
+  "original": "I struggle with anxiety and need help with coping strategies",
+  "processing_time": 0.6675288677215576,
+  "quality_score": null,
+  "streaming_updates": [
+    {
+      "citation_count": 0,
+      "source": "SummaryGenerationAgent",
+      "summary_length": 258,
+      "timestamp": "2025-09-28T12:01:43.261667",
+      "type": "summary_complete"
+    }
+  ],
+  "summary": "Okay, I need the themes and excerpts you want me to use in order to provide a summary for trauma recovery.  Please provide those, and I will generate a two-paragraph summary, synthesizing the insights and using citations as requested. I'm ready when you are!",
+  "themes": []
+}

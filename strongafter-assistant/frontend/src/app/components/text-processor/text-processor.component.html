@@ -1,0 +1,169 @@
+<div class="text-processor">
+  <div class="input-group">
+    <input
+      type="text"
+      [(ngModel)]="inputText"
+      (keypress)="onKeyPress($event)"
+      placeholder="How are you feeling?"
+      [disabled]="isProcessing"
+    />
+    <button (click)="processText()" [disabled]="isProcessing || !inputText.trim()">
+      {{ isProcessing ? 'Thinking...' : '→' }}
+    </button>
+  </div>
+
+  <div *ngIf="error" class="error-message">
+    {{ error }}
+  </div>
+
+  <div *ngIf="isProcessing" class="results">
+    <div class="themes-section">
+      <!-- Shimmer loading placeholder -->
+      <div class="combined-summary">
+        <h4>Response</h4>
+        <div class="summary-content shimmer-loading">
+          <div class="shimmer-line long"></div>
+          <div class="shimmer-line medium"></div>
+          <div class="shimmer-line long"></div>
+          <div class="shimmer-line short"></div>
+          <div class="shimmer-line medium"></div>
+          <div class="shimmer-line long"></div>
+          <div class="shimmer-line short"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="!isProcessing && (themes.length > 0 || summary)" class="results">
+    <div *ngIf="isDeveloperMode" class="developer-view">
+      <div class="themes-section">
+        <!-- Combined Summary for all relevant themes -->
+        <div *ngIf="summary" class="combined-summary">
+          <h4>Response</h4>
+          <div class="summary-content" [innerHTML]="processCitations(summary, getAllExcerpts())"></div>
+        </div>
+
+        <h3>Relevant Themes</h3>
+        <div class="theme-list">
+          <div *ngFor="let theme of getRelevantThemes()"
+               class="theme-card"
+               [class.clicked]="isThemeClicked(theme.id)"
+               (click)="toggleTheme(theme.id)">
+            <div class="theme-header">
+              <h4>{{ theme.label }}</h4>
+              <span class="score-badge">Score: {{ theme.score }}</span>
+            </div>
+            <div class="theme-content">
+              <p class="description">{{ theme.description }}</p>
+              <p *ngIf="theme.analysis" class="analysis">{{ theme.analysis }}</p>
+              <div class="theme-meta">
+                <span class="type-badge">{{ theme.type }}</span>
+                <span *ngIf="theme.related_parent_label" class="related-badge">
+                  Related to: {{ theme.related_parent_label }}
+                </span>
+              </div>
+              <div *ngIf="theme.excerpts && theme.excerpts.length > 0" class="excerpts">
+                <h5>Related Passages:</h5>
+
+                <div *ngFor="let item of theme.excerpts" class="excerpt">
+                  <p class="excerpt-text">{{ item.excerpt.text }}</p>
+                  <span class="similarity">Similarity: {{ item.similarity_score | number:'1.2-2' }}</span>
+                </div>
+              </div>
+              <div *ngIf="isThemeClicked(theme.id)" class="clicked-message">
+                clicked!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="themes-section">
+        <h3>Other Themes</h3>
+        <div class="theme-list">
+          <div *ngFor="let theme of getNonRelevantThemes()"
+               class="theme-card"
+               [class.clicked]="isThemeClicked(theme.id)"
+               (click)="toggleTheme(theme.id)">
+            <div class="theme-header">
+              <h4>{{ theme.label }}</h4>
+              <span class="score-badge">Score: {{ theme.score }}</span>
+            </div>
+            <div class="theme-content">
+              <p class="description">{{ theme.description }}</p>
+              <p *ngIf="theme.analysis" class="analysis">{{ theme.analysis }}</p>
+              <div class="theme-meta">
+                <span class="type-badge">{{ theme.type }}</span>
+                <span *ngIf="theme.related_parent_label" class="related-badge">
+                  Related to: {{ theme.related_parent_label }}
+                </span>
+              </div>
+              <div *ngIf="theme.excerpts && theme.excerpts.length > 0" class="excerpts">
+                <h5>Related Passages:</h5>
+
+                <div *ngFor="let item of theme.excerpts" class="excerpt">
+                  <p class="excerpt-text">{{ item.excerpt.text }}</p>
+                  <span class="similarity">Similarity: {{ item.similarity_score | number:'1.2-2' }}</span>
+                </div>
+              </div>
+              <div *ngIf="isThemeClicked(theme.id)" class="clicked-message">
+                clicked!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="!isDeveloperMode" class="standard-view">
+      <div class="themes-section">
+        <!-- Combined Summary for standard view -->
+        <div *ngIf="summary" class="combined-summary">
+          <h4>Response</h4>
+          <div class="summary-content" [innerHTML]="processCitations(summary, getAllExcerpts())"></div>
+
+          <!-- Recommended Further Reading Section -->
+          <div *ngIf="getResourceCards().length > 0" class="recommended-reading-section">
+            <h5>Recommended Further Reading</h5>
+            <div class="resource-cards">
+              <div *ngFor="let resource of getResourceCards()" class="resource-card">
+                <div class="resource-header">
+                  <h6 class="resource-title">{{ resource.title }}</h6>
+                  <p class="resource-author">by {{ resource.author }}</p>
+                </div>
+                <p class="resource-description">{{ resource.description }}</p>
+                <div class="resource-actions">
+                  <a [href]="resource.primaryCTA.url"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     class="primary-cta">
+                    {{ resource.primaryCTA.text }}
+                  </a>
+                  <!-- Future secondary CTA for members -->
+                  <a *ngIf="resource.secondaryCTA"
+                     [href]="resource.secondaryCTA.url"
+                     class="secondary-cta">
+                    {{ resource.secondaryCTA.text }}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3>Relevant Themes</h3>
+        <div class="theme-list">
+          <div *ngFor="let theme of getAllThemes()"
+               class="theme-card">
+            <div class="theme-header">
+              <h4>{{ theme.label }}</h4>
+            </div>
+            <div class="theme-content">
+              <p class="description">{{ theme.description }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

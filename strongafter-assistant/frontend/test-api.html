@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Test</title>
+</head>
+<body>
+    <h1>API Test</h1>
+    <button onclick="testHealth()">Test Health</button>
+    <button onclick="testProcessText()">Test Process Text</button>
+    <div id="result"></div>
+
+    <script>
+        async function testHealth() {
+            try {
+                const response = await fetch('http://localhost:5001/api/health');
+                const data = await response.json();
+                document.getElementById('result').innerHTML = 'Health: ' + JSON.stringify(data, null, 2);
+            } catch (error) {
+                document.getElementById('result').innerHTML = 'Health Error: ' + error.message;
+            }
+        }
+
+        async function testProcessText() {
+            try {
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), 120000); // 120 second timeout
+                
+                const response = await fetch('http://localhost:5001/api/process-text', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ text: 'I need help with stress' }),
+                    signal: controller.signal
+                });
+                
+                clearTimeout(timeoutId);
+                const data = await response.json();
+                document.getElementById('result').innerHTML = 'Process Text Success: Has summary: ' + !!data.summary + ', Has themes: ' + !!data.themes;
+            } catch (error) {
+                document.getElementById('result').innerHTML = 'Process Text Error: ' + error.message;
+            }
+        }
+    </script>
+</body>
+</html>
